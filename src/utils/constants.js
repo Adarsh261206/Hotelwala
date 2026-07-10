@@ -30,6 +30,8 @@ export const FOOTER_QUICK_LINKS = [
 
 export const WA_NUMBER = '918286521111'
 
+export const CITIES = ["Agartala","Agra","Ahmedabad","Aizawl","Amritsar","Araku Valley","Bandhavgarh","Bengaluru","Bhopal","Bhubaneswar","Bodhgaya","Chandigarh","Chennai","Coorg","Darjeeling","Dhordo","Gangtok","Gulmarg","Guwahati","Hyderabad","Imphal","Jaipur","Jawai","Jodhpur","Jorhat","Kohima","Kolkata","Kovalam","Kumarakom","Leh","Lonavala","Mahabalipuram","Majorda","Manali","Mumbai","Munnar","Mysore","Narendra Nagar","Ooty","Pune","Puri","Raipur","Ranchi","Rishikesh","Shillong","Shimla","Sinquerim","Srinagar","Tawang","Thekkady","Udaipur","Vagator","Varanasi","Visakhapatnam"]
+
 export const PROPERTY_TYPES = [
   'Luxury Resort',
   'Beach Resort',
