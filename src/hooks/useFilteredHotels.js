@@ -1,11 +1,11 @@
 import { useState, useMemo } from 'react'
 
-export default function useFilteredHotels(hotels) {
+export default function useFilteredHotels(hotels, initialFilters = {}) {
   const [filters, setFilters] = useState({
-    search: '',
-    state: '',
-    type: '',
-    cities: '',
+    search: initialFilters.search || '',
+    state: initialFilters.state || '',
+    type: initialFilters.type || '',
+    cities: initialFilters.cities || '',
   })
 
   const filtered = useMemo(() => {
