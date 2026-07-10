@@ -20,6 +20,8 @@ export default function Hotels() {
     const search = searchParams.get('search')
     const city = searchParams.get('city')
 
+    resetFilters()
+
     if (dest) {
       const destination = destinations.find(d => d.slug === dest)
       if (destination) updateFilter('search', destination.name)
@@ -34,7 +36,7 @@ export default function Hotels() {
     if (city) {
       updateFilter('cities', city)
     }
-  }, [])
+  }, [searchParams])
 
   function handleFilterChange(key, value) {
     updateFilter(key, value)
