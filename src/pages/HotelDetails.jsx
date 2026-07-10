@@ -1,6 +1,5 @@
 import SEO from '../components/ui/SEO'
 import { useParams, Link } from 'react-router-dom'
-import { IoLogoWhatsapp } from 'react-icons/io5'
 import Container from '../components/ui/Container'
 import Breadcrumb from '../components/ui/Breadcrumb'
 import ImageGallery from '../components/hotel/ImageGallery'
@@ -64,10 +63,9 @@ export default function HotelDetails() {
               href={`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(`Hi, I'm interested in ${hotel.name} in ${hotel.city}. Please share more details.`)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="block w-full bg-[#25D366] text-white text-center py-3.5 rounded-xl font-medium hover:bg-[#20BD5A] transition-all duration-300"
+              className="block w-full bg-primary text-white text-center py-3.5 rounded-xl font-medium hover:bg-primary-dark transition-all duration-300"
             >
-              <IoLogoWhatsapp className="w-5 h-5 inline mr-2" />
-              Enquire on WhatsApp
+              Enquire Now
             </a>
             <Link
               to={`/hotels?state=${hotel.stateId}`}

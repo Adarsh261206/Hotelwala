@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { IoSearch, IoClose, IoMenu, IoLogoWhatsapp } from 'react-icons/io5'
+import { IoSearch, IoClose, IoMenu } from 'react-icons/io5'
 import useScrollPosition from '../../hooks/useScrollPosition'
 import { NAV_LINKS, WA_NUMBER } from '../../utils/constants'
 import SearchBar from '../ui/SearchBar'
@@ -66,9 +66,8 @@ export default function Navbar() {
                 href={`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent('Hi, I\'m interested in booking a hotel through Hotelwala. Please share more details.')}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-[#25D366] text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-[#20BD5A] transition-all duration-300"
+                className="bg-primary text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary-dark transition-all duration-300"
               >
-                <IoLogoWhatsapp className="w-4 h-4" />
                 Enquire Now
               </a>
             </div>
@@ -107,9 +106,8 @@ export default function Navbar() {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setMobileOpen(false)}
-                className="flex items-center justify-center gap-2 bg-[#25D366] text-white w-full py-3.5 rounded-xl text-base font-medium hover:bg-[#20BD5A] transition-all duration-300"
+                className="block bg-primary text-white w-full py-3.5 rounded-xl text-base font-medium text-center hover:bg-primary-dark transition-all duration-300"
               >
-                <IoLogoWhatsapp className="w-5 h-5" />
                 Enquire Now
               </a>
             </div>

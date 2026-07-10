@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { IoLocationOutline, IoEyeOutline, IoLogoWhatsapp } from 'react-icons/io5'
+import { IoLocationOutline, IoEyeOutline } from 'react-icons/io5'
 import StarRating from '../ui/StarRating'
 import Badge from '../ui/Badge'
 import { WA_NUMBER } from '../../utils/constants'
@@ -58,11 +58,10 @@ export default function HotelCard({ hotel, variant = 'default' }) {
           href={`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(`Hi, I'm interested in ${hotel.name} in ${hotel.city}. Please share more details.`)}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 bg-[#25D366] text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-[#20BD5A] transition-colors"
+          className="inline-flex items-center bg-primary text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary-dark transition-colors"
           onClick={e => e.stopPropagation()}
         >
-          <IoLogoWhatsapp className="w-4 h-4" />
-          Enquire on WhatsApp
+          Enquire Now
         </a>
 
         {!isCompact && hotel.amenities && (

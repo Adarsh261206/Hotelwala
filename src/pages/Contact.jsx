@@ -1,6 +1,6 @@
 import SEO from '../components/ui/SEO'
 import { useForm } from 'react-hook-form'
-import { IoCall, IoMail, IoLocationOutline, IoLogoWhatsapp } from 'react-icons/io5'
+import { IoCall, IoMail, IoLocationOutline, IoSend } from 'react-icons/io5'
 import Container from '../components/ui/Container'
 import SectionHeading from '../components/ui/SectionHeading'
 import { WA_NUMBER } from '../utils/constants'
@@ -113,10 +113,10 @@ export default function Contact() {
 
             <button
               type="submit"
-              className="w-full bg-[#25D366] text-white py-3.5 rounded-xl font-medium flex items-center justify-center gap-2 hover:bg-[#20BD5A] transition-all duration-300"
+              className="w-full bg-primary text-white py-3.5 rounded-xl font-medium flex items-center justify-center gap-2 hover:bg-primary-dark transition-all duration-300"
             >
-              <IoLogoWhatsapp className="w-5 h-5" />
-              Send Enquiry via WhatsApp
+              <IoSend className="w-4 h-4" />
+              Send Enquiry
             </button>
           </form>
         </div>
