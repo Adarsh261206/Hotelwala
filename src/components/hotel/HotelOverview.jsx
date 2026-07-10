@@ -1,8 +1,6 @@
 import { IoLocationOutline, IoShareSocialOutline, IoHeartOutline } from 'react-icons/io5'
 import StarRating from '../ui/StarRating'
 import Badge from '../ui/Badge'
-import Button from '../ui/Button'
-import { WA_NUMBER } from '../../utils/constants'
 
 export default function HotelOverview({ hotel }) {
   const shareUrl = typeof window !== 'undefined' ? window.location.href : ''
@@ -40,10 +38,6 @@ export default function HotelOverview({ hotel }) {
       </div>
 
       <p className="text-base text-muted leading-relaxed">{hotel.description}</p>
-
-      <Button href={`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(`Hi, I'm interested in ${hotel.name} in ${hotel.city}. Please share more details.`)}`} variant="primary" size="lg" target="_blank" rel="noopener noreferrer">
-        Enquire Now
-      </Button>
     </div>
   )
 }
