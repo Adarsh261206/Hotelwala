@@ -1,8 +1,9 @@
 import SEO from '../components/ui/SEO'
 import { useForm } from 'react-hook-form'
-import { IoCall, IoMail, IoLocationOutline, IoSend } from 'react-icons/io5'
+import { IoCall, IoMail, IoLocationOutline, IoLogoWhatsapp } from 'react-icons/io5'
 import Container from '../components/ui/Container'
 import SectionHeading from '../components/ui/SectionHeading'
+import { WA_NUMBER } from '../utils/constants'
 
 const contactCards = [
   {
@@ -26,9 +27,9 @@ export default function Contact() {
   const { register, handleSubmit, formState: { errors, isSubmitted }, reset } = useForm()
 
   function onSubmit(data) {
-    console.log('Enquiry submitted:', data)
+    const message = `Hi Hotelwala, I'd like to enquire about a hotel.%0A%0AName: ${data.name}%0AEmail: ${data.email}%0APhone: ${data.phone}%0AMessage: ${data.message}`
+    window.open(`https://wa.me/${WA_NUMBER}?text=${message}`, '_blank')
     reset()
-    alert('Thank you for your enquiry. Our concierge team will contact you shortly.')
   }
 
   return (
@@ -112,10 +113,10 @@ export default function Contact() {
 
             <button
               type="submit"
-              className="w-full bg-primary text-white py-3.5 rounded-xl font-medium flex items-center justify-center gap-2 hover:bg-primary-dark transition-all duration-300"
+              className="w-full bg-[#25D366] text-white py-3.5 rounded-xl font-medium flex items-center justify-center gap-2 hover:bg-[#20BD5A] transition-all duration-300"
             >
-              <IoSend className="w-4 h-4" />
-              Send Enquiry
+              <IoLogoWhatsapp className="w-5 h-5" />
+              Send Enquiry via WhatsApp
             </button>
           </form>
         </div>

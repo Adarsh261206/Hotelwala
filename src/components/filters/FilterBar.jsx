@@ -1,6 +1,6 @@
 import { IoSearch, IoClose } from 'react-icons/io5'
 import states from '../../data/states'
-import { BUDGET_RANGES, PROPERTY_TYPES } from '../../utils/constants'
+import { PROPERTY_TYPES } from '../../utils/constants'
 
 export default function FilterBar({ filters, onFilterChange, onReset, totalCount }) {
   return (
@@ -17,7 +17,7 @@ export default function FilterBar({ filters, onFilterChange, onReset, totalCount
         />
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         <select
           value={filters.state}
           onChange={e => onFilterChange('state', e.target.value)}
@@ -30,17 +30,6 @@ export default function FilterBar({ filters, onFilterChange, onReset, totalCount
           ))}
         </select>
 
-        <select
-          value={filters.budget}
-          onChange={e => onFilterChange('budget', e.target.value)}
-          className="bg-[#FAF8F5] border border-border rounded-lg px-3 py-2.5 text-sm outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all"
-          aria-label="Filter by budget"
-        >
-          <option value="">All Budgets</option>
-          {BUDGET_RANGES.map((b, i) => (
-            <option key={i} value={`${b.min}-${b.max}`}>{b.label}</option>
-          ))}
-        </select>
 
         <select
           value={filters.type}
@@ -59,7 +48,7 @@ export default function FilterBar({ filters, onFilterChange, onReset, totalCount
         <span className="text-sm text-muted">
           <span className="font-numbers text-text font-medium">{totalCount}</span> hotels found
         </span>
-        {(filters.search || filters.state || filters.budget || filters.type) && (
+        {(filters.search || filters.state || filters.type) && (
           <button
             onClick={onReset}
             className="flex items-center gap-1 text-sm text-muted hover:text-primary transition-colors"

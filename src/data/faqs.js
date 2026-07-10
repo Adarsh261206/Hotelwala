@@ -7,12 +7,12 @@ const faqs = [
   {
     id: 2,
     question: 'Is Hotelwala a booking platform?',
-    answer: 'No, Hotelwala is a premium discovery and enquiry platform. We help you find India\'s finest hotels and connect you directly with the property for bookings. This ensures you receive the best rates and personalized service.',
+    answer: 'No, Hotelwala is a premium discovery and enquiry platform. We help you find India\'s finest hotels and connect you directly with the property for bookings. This ensures you receive personalized service.',
   },
   {
     id: 3,
     question: 'How can I make an enquiry for a hotel?',
-    answer: 'Simply navigate to any hotel\'s detailed page and click the "Enquire Now" button, or visit our Contact page. Fill in your details and preferences, and our concierge team will connect you directly with the hotel.',
+    answer: 'Simply navigate to any hotel\'s detailed page and click the "Enquire on WhatsApp" button, or visit our Contact page. Fill in your details and preferences, and we\'ll connect you directly with the hotel via WhatsApp.',
   },
   {
     id: 4,
@@ -22,7 +22,7 @@ const faqs = [
   {
     id: 5,
     question: 'Does Hotelwala charge a commission on bookings?',
-    answer: 'No. Hotelwala is completely free for travellers. We do not charge any booking fees or commissions. Our role is to connect you with exceptional hotels, and all financial transactions happen directly between you and the property.',
+    answer: 'No. Hotelwala is completely free for travellers. We do not charge any booking fees or commissions. Our role is to connect you with exceptional hotels via WhatsApp.',
   },
   {
     id: 6,

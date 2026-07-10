@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { IoSearch, IoClose, IoMenu } from 'react-icons/io5'
+import { IoSearch, IoClose, IoMenu, IoLogoWhatsapp } from 'react-icons/io5'
 import useScrollPosition from '../../hooks/useScrollPosition'
-import { NAV_LINKS } from '../../utils/constants'
+import { NAV_LINKS, WA_NUMBER } from '../../utils/constants'
 import SearchBar from '../ui/SearchBar'
 import Button from '../ui/Button'
 
@@ -62,9 +62,15 @@ export default function Navbar() {
             </button>
 
             <div className="hidden md:block">
-              <Button to="/contact" variant="primary" size="sm">
+              <a
+                href={`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent('Hi, I\'m interested in booking a hotel through Hotelwala. Please share more details.')}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-[#25D366] text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-[#20BD5A] transition-all duration-300"
+              >
+                <IoLogoWhatsapp className="w-4 h-4" />
                 Enquire Now
-              </Button>
+              </a>
             </div>
 
             <button
@@ -96,9 +102,16 @@ export default function Navbar() {
               </Link>
             ))}
             <div className="mt-4 px-4">
-              <Button to="/contact" variant="primary" size="lg" className="w-full" onClick={() => setMobileOpen(false)}>
+              <a
+                href={`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent('Hi, I\'m interested in booking a hotel through Hotelwala. Please share more details.')}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMobileOpen(false)}
+                className="flex items-center justify-center gap-2 bg-[#25D366] text-white w-full py-3.5 rounded-xl text-base font-medium hover:bg-[#20BD5A] transition-all duration-300"
+              >
+                <IoLogoWhatsapp className="w-5 h-5" />
                 Enquire Now
-              </Button>
+              </a>
             </div>
           </nav>
         </div>

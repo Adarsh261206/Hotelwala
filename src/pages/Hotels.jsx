@@ -43,7 +43,7 @@ export default function Hotels() {
 
   return (
     <div className="py-10 md:py-16">
-      <SEO title="Premium Hotels" description="Browse our curated collection of India's finest luxury hotels. Filter by state, budget, and property type." />
+      <SEO title="Premium Hotels" description="Browse our curated collection of India's finest luxury hotels. Filter by state and property type." />
       <Container>
         <SectionHeading
           title="Discover Premium Hotels"

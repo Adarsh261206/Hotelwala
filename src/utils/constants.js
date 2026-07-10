@@ -28,12 +28,7 @@ export const FOOTER_QUICK_LINKS = [
   { label: 'Contact', path: '/contact' },
 ]
 
-export const BUDGET_RANGES = [
-  { label: 'Under ₹10,000', min: 0, max: 10000 },
-  { label: '₹10,000 – ₹25,000', min: 10000, max: 25000 },
-  { label: '₹25,000 – ₹50,000', min: 25000, max: 50000 },
-  { label: '₹50,000+', min: 50000, max: Infinity },
-]
+export const WA_NUMBER = '918286521111'
 
 export const PROPERTY_TYPES = [
   'Luxury Resort',

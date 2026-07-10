@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import { IoLogoWhatsapp } from 'react-icons/io5'
+import { WA_NUMBER } from '../../utils/constants'
 
 export default function CTABanner() {
   return (
@@ -58,12 +60,15 @@ export default function CTABanner() {
           >
             Explore States
           </Link>
-          <Link
-            to="/contact"
-            className="border-2 border-white/30 text-white px-8 py-4 rounded-xl text-base font-medium hover:bg-white/10 transition-all duration-300 backdrop-blur-sm"
+          <a
+            href={`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent('Hi, I\'m interested in booking a hotel through Hotelwala. Please share more details.')}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 border-2 border-white/30 text-white px-8 py-4 rounded-xl text-base font-medium hover:bg-white/10 transition-all duration-300 backdrop-blur-sm"
           >
+            <IoLogoWhatsapp className="w-5 h-5" />
             Enquire Now
-          </Link>
+          </a>
         </motion.div>
       </div>
     </section>

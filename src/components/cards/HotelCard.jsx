@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { IoLocationOutline, IoEyeOutline } from 'react-icons/io5'
+import { IoLocationOutline, IoEyeOutline, IoLogoWhatsapp } from 'react-icons/io5'
 import StarRating from '../ui/StarRating'
 import Badge from '../ui/Badge'
-import { formatPrice } from '../../utils/helpers'
+import { WA_NUMBER } from '../../utils/constants'
 
 export default function HotelCard({ hotel, variant = 'default' }) {
   const [hovered, setHovered] = useState(false)
@@ -54,12 +54,16 @@ export default function HotelCard({ hotel, variant = 'default' }) {
           <span>{hotel.city}</span>
         </div>
 
-        <div className="flex items-center justify-between">
-          <span className="font-numbers text-lg font-semibold text-text">
-            {formatPrice(hotel.price)}
-            <span className="text-xs text-muted font-normal"> / night</span>
-          </span>
-        </div>
+        <a
+          href={`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(`Hi, I'm interested in ${hotel.name} in ${hotel.city}. Please share more details.`)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 bg-[#25D366] text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-[#20BD5A] transition-colors"
+          onClick={e => e.stopPropagation()}
+        >
+          <IoLogoWhatsapp className="w-4 h-4" />
+          Enquire on WhatsApp
+        </a>
 
         {!isCompact && hotel.amenities && (
           <div className="flex flex-wrap gap-1.5 mt-4 pt-4 border-t border-border">

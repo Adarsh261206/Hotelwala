@@ -4,7 +4,8 @@ export default function useFilteredHotels(hotels) {
   const [filters, setFilters] = useState({
     search: '',
     state: '',
-    budget: '',
+
+
     type: '',
   })
 
@@ -20,10 +21,7 @@ export default function useFilteredHotels(hotels) {
       }
       if (filters.state && hotel.stateId !== filters.state) return false
       if (filters.type && hotel.type !== filters.type) return false
-      if (filters.budget) {
-        const [min, max] = filters.budget.split('-').map(Number)
-        if (hotel.price < min || hotel.price > max) return false
-      }
+
       return true
     })
   }, [hotels, filters])
@@ -33,7 +31,7 @@ export default function useFilteredHotels(hotels) {
   }
 
   function resetFilters() {
-    setFilters({ search: '', state: '', budget: '', type: '' })
+    setFilters({ search: '', state: '', type: '' })
   }
 
   return { filters, filtered, updateFilter, resetFilters }
