@@ -18,6 +18,7 @@ export default function Hotels() {
     const dest = searchParams.get('destination')
     const col = searchParams.get('collection')
     const search = searchParams.get('search')
+    const city = searchParams.get('city')
 
     if (dest) {
       const destination = destinations.find(d => d.slug === dest)
@@ -30,6 +31,10 @@ export default function Hotels() {
     if (search) {
       updateFilter('search', search)
     }
+    if (city) {
+      const destination = destinations.find(d => d.slug === city)
+      if (destination) updateFilter('cities', destination.cities.join('|'))
+    }
   }, [])
 
   function handleFilterChange(key, value) {
@@ -41,13 +46,17 @@ export default function Hotels() {
     setSearchParams({})
   }
 
+  const destinationName = searchParams.get('city')
+    ? destinations.find(d => d.slug === searchParams.get('city'))?.name
+    : null
+
   return (
     <div className="py-10 md:py-16">
-      <SEO title="Premium Hotels" description="Browse our curated collection of India's finest luxury hotels. Filter by state and property type." />
+      <SEO title={destinationName ? `${destinationName} Hotels` : 'Premium Hotels'} description={destinationName ? `Browse our curated collection of luxury hotels in ${destinationName}.` : "Browse our curated collection of India's finest luxury hotels. Filter by state and property type."} />
       <Container>
         <SectionHeading
-          title="Discover Premium Hotels"
-          subtitle="Browse our curated collection of India's finest hotels across all states."
+          title={destinationName ? `Hotels in ${destinationName}` : 'Discover Premium Hotels'}
+          subtitle={destinationName ? `Luxury stays in ${destinationName}, curated for discerning travellers.` : "Browse our curated collection of India's finest hotels."}
           align="left"
           className="mb-8"
         />

@@ -4,9 +4,8 @@ export default function useFilteredHotels(hotels) {
   const [filters, setFilters] = useState({
     search: '',
     state: '',
-
-
     type: '',
+    cities: '',
   })
 
   const filtered = useMemo(() => {
@@ -21,7 +20,7 @@ export default function useFilteredHotels(hotels) {
       }
       if (filters.state && hotel.stateId !== filters.state) return false
       if (filters.type && hotel.type !== filters.type) return false
-
+      if (filters.cities && !filters.cities.split('|').includes(hotel.city)) return false
       return true
     })
   }, [hotels, filters])
@@ -31,7 +30,7 @@ export default function useFilteredHotels(hotels) {
   }
 
   function resetFilters() {
-    setFilters({ search: '', state: '', type: '' })
+    setFilters({ search: '', state: '', type: '', cities: '' })
   }
 
   return { filters, filtered, updateFilter, resetFilters }

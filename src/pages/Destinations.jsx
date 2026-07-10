@@ -11,7 +11,7 @@ export default function Destinations() {
       <Container>
         <SectionHeading
           title="Destinations"
-          subtitle="Explore India through its most captivating travel destinations. Each category offers a unique luxury experience."
+          subtitle="Discover India's most iconic travel destinations, from the palaces of Rajasthan to the backwaters of Kerala."
           align="center"
         />
 
