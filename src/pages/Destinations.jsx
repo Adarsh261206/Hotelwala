@@ -5,6 +5,10 @@ import Container from '../components/ui/Container'
 import SectionHeading from '../components/ui/SectionHeading'
 import MiniStateMap from '../components/ui/MiniStateMap'
 import destinations from '../data/destinations'
+import states from '../data/states'
+
+const stateNames = {}
+states.forEach(s => { stateNames[s.id] = s.name })
 
 export default function Destinations() {
   return (
@@ -31,7 +35,7 @@ export default function Destinations() {
                   </div>
                   <div className="md:w-3/5 p-8 md:p-10 flex flex-col justify-center">
                     <p className="text-xs text-primary font-medium uppercase tracking-[0.2em] mb-2">
-                      {dest.stateId?.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
+                      {stateNames[dest.stateId] || dest.stateId}
                     </p>
                     <h2 className="text-3xl md:text-4xl font-heading text-text mb-2">{dest.name}</h2>
                     <p className="text-muted leading-relaxed mb-6">{dest.description}</p>
