@@ -20,7 +20,7 @@ export default function DestinationCard({ destination }) {
 
       <div className="absolute bottom-0 left-0 right-0 p-6">
         <h3 className="text-2xl font-heading text-white mb-1">{destination.name}</h3>
-        <p className="text-xs text-white/50 mb-1">{destination.tagline}</p>
+        {destination.tagline && <p className="text-xs text-white/50 mb-1">{destination.tagline}</p>}
         <p className="text-sm text-white/70 mb-3 line-clamp-2">{destination.description}</p>
         <div className="flex items-center justify-between">
           <span className="text-sm text-white/80 font-numbers">{destination.hotelCount} Hotels</span>

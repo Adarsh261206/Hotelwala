@@ -34,7 +34,6 @@ export default function Destinations() {
                       {dest.stateId?.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
                     </p>
                     <h2 className="text-3xl md:text-4xl font-heading text-text mb-2">{dest.name}</h2>
-                    <p className="text-sm text-primary/80 font-medium mb-4">{dest.tagline}</p>
                     <p className="text-muted leading-relaxed mb-6">{dest.description}</p>
                     <div className="flex items-center gap-4">
                       <Link
