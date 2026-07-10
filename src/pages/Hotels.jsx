@@ -32,8 +32,7 @@ export default function Hotels() {
       updateFilter('search', search)
     }
     if (city) {
-      const destination = destinations.find(d => d.slug === city)
-      if (destination) updateFilter('cities', destination.cities.join('|'))
+      updateFilter('cities', city)
     }
   }, [])
 
@@ -47,7 +46,7 @@ export default function Hotels() {
   }
 
   const destinationName = searchParams.get('city')
-    ? destinations.find(d => d.slug === searchParams.get('city'))?.name
+    ? decodeURIComponent(searchParams.get('city'))
     : null
 
   return (

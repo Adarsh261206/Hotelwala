@@ -41,7 +41,7 @@ export default function Destinations() {
                     <p className="text-muted leading-relaxed mb-6">{dest.description}</p>
                     <div className="flex items-center gap-4">
                       <Link
-                        to={`/hotels?city=${dest.slug}`}
+                        to={`/hotels?city=${encodeURIComponent(dest.name)}`}
                         className="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-xl text-sm font-medium hover:bg-primary-dark transition-all duration-300"
                       >
                         View Hotels <IoArrowForward className="w-4 h-4" />

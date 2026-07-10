@@ -4,7 +4,7 @@ import { IoArrowForward } from 'react-icons/io5'
 export default function DestinationCard({ destination }) {
   return (
     <Link
-      to={`/hotels?city=${destination.slug}`}
+      to={`/hotels?city=${encodeURIComponent(destination.name)}`}
       className="group relative block rounded-xl overflow-hidden h-72 md:h-80 shadow-[0_2px_16px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_32px_rgba(0,0,0,0.08)] transition-all duration-500"
     >
       <div className="absolute inset-0 bg-[#F5EFE7]">
