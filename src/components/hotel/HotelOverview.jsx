@@ -41,7 +41,7 @@ export default function HotelOverview({ hotel }) {
 
       <p className="text-base text-muted leading-relaxed">{hotel.description}</p>
 
-      <Button href={`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(`Hi, I'm interested in ${hotel.name} in ${hotel.city}. Please share more details.`)}`} variant="primary" size="lg">
+      <Button href={`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(`Hi, I'm interested in ${hotel.name} in ${hotel.city}. Please share more details.`)}`} variant="primary" size="lg" target="_blank" rel="noopener noreferrer">
         Enquire Now
       </Button>
     </div>
