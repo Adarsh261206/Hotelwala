@@ -54,15 +54,15 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <IoCall className="w-4 h-4 text-primary mt-0.5 shrink-0" />
-                <span className="text-sm text-white/50">+91 1800 123 4567</span>
+                <span className="text-sm text-white/50">+91 8286 521 111</span>
               </li>
               <li className="flex items-start gap-3">
                 <IoMail className="w-4 h-4 text-primary mt-0.5 shrink-0" />
-                <span className="text-sm text-white/50">concierge@hotelwala.com</span>
+                <span className="text-sm text-white/50">himanshu@hotelwala.net</span>
               </li>
               <li className="flex items-start gap-3">
                 <IoLocationOutline className="w-4 h-4 text-primary mt-0.5 shrink-0" />
-                <span className="text-sm text-white/50">42 Luxury Lane, Andheri East,<br />Mumbai 400093, India</span>
+                <span className="text-sm text-white/50">1, Ashok Apt. MG Road, Opp. Naupada Police Stn.,<br />Thane (W) - 400602, India</span>
               </li>
             </ul>
           </div>

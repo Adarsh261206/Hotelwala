@@ -14,7 +14,7 @@ const contactCards = [
   {
     icon: IoMail,
     title: 'Email',
-    lines: ['himanshu@hotelwala.net', 'concierge@hotelwala.com'],
+    lines: ['himanshu@hotelwala.net', 'concierge@hotelwala.net'],
   },
   {
     icon: IoLocationOutline,
