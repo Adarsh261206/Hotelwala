@@ -3,10 +3,10 @@ import Container from '../components/ui/Container'
 import SectionHeading from '../components/ui/SectionHeading'
 
 const stats = [
-  { value: '55+', label: 'Premium Hotels' },
-  { value: '28', label: 'Indian States' },
-  { value: '8', label: 'Destinations' },
-  { value: '4.6', label: 'Average Rating' },
+  { value: '84+', label: 'Premium Hotels' },
+  { value: '31', label: 'Indian States' },
+  { value: '54', label: 'Destinations' },
+  { value: '4.3', label: 'Average Rating' },
 ]
 
 const values = [
@@ -101,6 +101,32 @@ export default function About() {
                   </div>
                 </div>
               ))}
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      <section className="py-16 md:py-20 bg-[#F5EFE7]">
+        <Container>
+          <SectionHeading
+            title="Co-Founder"
+            subtitle="Meet the team behind Hotelwala."
+          />
+          <div className="max-w-lg mx-auto bg-white rounded-xl p-8 shadow-[0_2px_16px_rgba(0,0,0,0.04)] text-center">
+            <div className="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
+              <span className="text-3xl font-heading text-primary font-semibold">HB</span>
+            </div>
+            <h3 className="text-2xl font-heading text-text mb-1">Himanshu Bhanushali</h3>
+            <p className="text-sm text-primary font-medium mb-4">Co-Founder</p>
+            <p className="text-sm text-muted mb-6">Pan India Hotels & Resorts Consolidator</p>
+            <div className="space-y-2 text-sm text-muted">
+              <p><span className="font-medium text-text">Phone:</span> +91 8286 521 111</p>
+              <p><span className="font-medium text-text">Email:</span> himanshu@hotelwala.net</p>
+              <p><span className="font-medium text-text">Web:</span> www.hotelwala.net</p>
+            </div>
+            <div className="mt-6 pt-6 border-t border-border text-sm text-muted">
+              <p>1, Ashok Apt. MG Road, Opp. Naupada Police Stn.,</p>
+              <p>Thane (W) - 400602</p>
             </div>
           </div>
         </Container>

@@ -9,17 +9,17 @@ const contactCards = [
   {
     icon: IoCall,
     title: 'Phone',
-    lines: ['+91 1800 123 4567', '+91 22 4567 8900'],
+    lines: ['+91 8286 521 111', '+91 22 4567 8900'],
   },
   {
     icon: IoMail,
     title: 'Email',
-    lines: ['concierge@hotelwala.com', 'partnerships@hotelwala.com'],
+    lines: ['himanshu@hotelwala.net', 'concierge@hotelwala.com'],
   },
   {
     icon: IoLocationOutline,
     title: 'Office',
-    lines: ['42 Luxury Lane, Andheri East', 'Mumbai 400093, India'],
+    lines: ['1, Ashok Apt. MG Road, Opp. Naupada Police Stn.', 'Thane (W) - 400602, India'],
   },
 ]
 
@@ -121,12 +121,12 @@ export default function Contact() {
           </form>
         </div>
 
-        <div className="mt-12 bg-white rounded-xl overflow-hidden shadow-[0_2px_16px_rgba(0,0,0,0.04)] h-64 flex items-center justify-center">
-          <div className="text-center text-muted">
-            <IoLocationOutline className="w-8 h-8 mx-auto mb-2" />
-            <p className="text-sm">42 Luxury Lane, Andheri East, Mumbai 400093</p>
+          <div className="mt-12 bg-white rounded-xl overflow-hidden shadow-[0_2px_16px_rgba(0,0,0,0.04)] h-64 flex items-center justify-center">
+            <div className="text-center text-muted">
+              <IoLocationOutline className="w-8 h-8 mx-auto mb-2" />
+              <p className="text-sm">1, Ashok Apt. MG Road, Thane (W) - 400602</p>
+            </div>
           </div>
-        </div>
       </Container>
     </div>
   )

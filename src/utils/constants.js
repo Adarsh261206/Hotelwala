@@ -1,6 +1,6 @@
 export const SITE_NAME = 'Hotelwala'
-export const SITE_TAGLINE = "India's Premium Hotel Network"
-export const SITE_URL = 'https://hotelwala.com'
+export const SITE_TAGLINE = "Pan India Hotels & Resorts Consolidator"
+export const SITE_URL = 'https://hotelwala.net'
 export const SITE_DESCRIPTION = 'Discover India\'s most extraordinary hotels. Hotelwala curates premium accommodations across the country for discerning travelers.'
 
 export const NAV_LINKS = [
