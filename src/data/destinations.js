@@ -7,7 +7,7 @@ const destinations = [
     order: 0,
     tagline: 'The Pink City',
     description: "Set amidst 32 acres of landscaped gardens, The Oberoi Rajvilas combines royal Rajput architecture with contemporary luxury. Each suite opens to private courtyards and lily-filled ponds.",
-    image: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&h=600&fit=crop',
+    image: '/images/the-oberoi-rajvilas/1.jpeg',
     cities: ['Jaipur'],
   },
   {
@@ -18,7 +18,7 @@ const destinations = [
     order: 1,
     tagline: 'City of Lakes',
     description: "A white marble palace floating on the serene waters of Lake Pichola. This 18th-century palace-turned-hotel offers timeless romance and unparalleled views.",
-    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop',
+    image: '/images/taj-lake-palace/1.jpeg',
     cities: ['Udaipur'],
   },
   {
@@ -51,7 +51,7 @@ const destinations = [
     order: 4,
     tagline: 'City of Dreams',
     description: "Mumbai's iconic sea-facing landmark, blending Moorish and Renaissance architecture with six-star hospitality since 1903.",
-    image: 'https://images.unsplash.com/photo-1693585576677-3635adad699d?w=800&h=600&fit=crop',
+    image: '/images/the-taj-mahal-palace/1.jpeg',
     cities: ['Mumbai'],
   },
   {
@@ -73,7 +73,7 @@ const destinations = [
     order: 6,
     tagline: 'Adventure & Yoga Hub',
     description: "A serene luxury resort along the Ganges with views of the Lakshman Jhula bridge and surrounding hills.",
-    image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=600&fit=crop',
+    image: '/images/taj-rishikesh/1.jpeg',
     cities: ['Rishikesh'],
   },
   {
@@ -95,7 +95,7 @@ const destinations = [
     order: 8,
     tagline: 'The Blue City',
     description: "One of the world's largest private residences, this art deco palace offers regal suites, a museum, and panoramic views of the Blue City.",
-    image: 'https://images.unsplash.com/photo-1477587458883-47145fc32b51?w=800&h=600&fit=crop',
+    image: '/images/umaid-bhavan-palace/1.jpeg',
     cities: ['Jodhpur'],
   },
   {
@@ -205,7 +205,7 @@ const destinations = [
     order: 18,
     tagline: 'Backwater Bliss',
     description: "Award-winning backwater resort with private pool villas, traditional Kerala architecture, and houseboat cruises on Vembanad Lake.",
-    image: 'https://images.unsplash.com/photo-1561501900-3701fa6a0864?w=800&h=600&fit=crop',
+    image: '/images/kumarakom-lake-resort/1.jpeg',
     cities: ['Kumarakom'],
   },
   {
@@ -578,7 +578,7 @@ const destinations = [
     order: 52,
     tagline: 'Leopard Country',
     description: "An exclusive tented camp in the wild heart of Rajasthan, offering leopard sightings and unparalleled luxury under canvas.",
-    image: 'https://images.unsplash.com/photo-1469796466635-455ede028aca?w=800&h=600&fit=crop',
+    image: '/images/sujan-sherbagh/1.jpeg',
     cities: ['Jawai'],
   },
   {
@@ -732,7 +732,7 @@ const destinations = [
     order: 66,
     tagline: 'Adventure & Yoga Hub',
     description: "A stunning all-glass luxury resort on the banks of the Ganges, offering panoramic river views from every room.",
-    image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=600&fit=crop',
+    image: '/images/glasshouse-rishikesh/1.jpeg',
     cities: ['Rishikesh'],
   },
   {
@@ -743,7 +743,7 @@ const destinations = [
     order: 67,
     tagline: 'Adventure & Yoga Hub',
     description: "A beautiful 4-star riverside resort with adventure activities, yoga pavilions, and comfortable cottages along the Ganges.",
-    image: 'https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&h=600&fit=crop',
+    image: '/images/aloha-rishikesh/1.jpeg',
     cities: ['Rishikesh'],
   },
   {
