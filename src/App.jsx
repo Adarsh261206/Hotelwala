@@ -25,15 +25,15 @@ function PageTransition({ children }) {
 }
 
 export default function App() {
-  const { pathname } = useLocation()
-  const isHome = pathname === '/'
+  const location = useLocation()
+  const isHome = location.pathname === '/'
 
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className={`flex-1 ${isHome ? '' : 'pt-16 md:pt-20'}`}>
         <AnimatePresence mode="wait">
-          <Routes location={pathname} key={pathname}>
+          <Routes location={location} key={location.pathname}>
             <Route path="/" element={<PageTransition><Home /></PageTransition>} />
             <Route path="/hotels" element={<PageTransition><Hotels /></PageTransition>} />
             <Route path="/hotels/:slug" element={<PageTransition><HotelDetails /></PageTransition>} />
