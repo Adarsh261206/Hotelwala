@@ -40,7 +40,7 @@ const destinations = [
     order: 3,
     tagline: 'Spiritual Capital',
     description: "A restored 19th-century palace on the banks of the Ganges, offering an intimate luxury experience in the spiritual capital.",
-    image: 'https://images.unsplash.com/photo-1469796466635-455ede028aca?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Varanasi'],
   },
   {
@@ -62,7 +62,7 @@ const destinations = [
     order: 5,
     tagline: 'Mountain Escape',
     description: "A boutique mountain lodge offering panoramic views of the Pir Panjal range with warm Himalayan hospitality.",
-    image: 'https://images.unsplash.com/photo-1729605412184-8d796f9c6f66?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Manali'],
   },
   {
@@ -84,7 +84,7 @@ const destinations = [
     order: 7,
     tagline: 'The Golden City',
     description: "A luxury hotel offering views of the Golden Temple, combining Sikh heritage with modern elegance.",
-    image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Amritsar'],
   },
   {
@@ -117,7 +117,7 @@ const destinations = [
     order: 10,
     tagline: 'Queen of the Himalayas',
     description: "A charming tea planter's bungalow overlooking the Himalayas, offering immersive tea garden experiences.",
-    image: 'https://images.unsplash.com/photo-1729605412104-24acd08bd413?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Darjeeling'],
   },
   {
@@ -128,7 +128,7 @@ const destinations = [
     order: 11,
     tagline: 'Tea Country',
     description: "Nestled in a cardamom plantation, this eco-luxury resort offers cottages inspired by tribal architecture with modern comforts.",
-    image: 'https://images.unsplash.com/photo-1729606559706-6c06d2ef1004?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Munnar'],
   },
   {
@@ -150,7 +150,7 @@ const destinations = [
     order: 13,
     tagline: 'Paradise on Earth',
     description: "A luxurious houseboat and garden resort on the banks of Dal Lake, offering Shikara rides and Mughal garden views.",
-    image: 'https://images.unsplash.com/photo-1597432538815-7f364ff18fd1?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Srinagar'],
   },
   {
@@ -161,7 +161,7 @@ const destinations = [
     order: 14,
     tagline: 'Queen of Nilgiris',
     description: "A colonial-era luxury hotel perched in the Nilgiris, surrounded by manicured gardens and eucalyptus forests.",
-    image: 'https://images.unsplash.com/photo-1551918120-9739cb430c6d?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Ooty'],
   },
   {
@@ -183,7 +183,7 @@ const destinations = [
     order: 16,
     tagline: 'Temple City',
     description: "A beachfront resort on the Covelong coast with colonial-style cottages and spectacular sunrise views.",
-    image: 'https://images.unsplash.com/photo-1621293954908-907159247fc8?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Chennai'],
   },
   {
@@ -226,7 +226,7 @@ const destinations = [
     stateId: 'telangana',
     order: 20,
     description: "A boutique heritage hotel in Hyderabad's old city, offering Nizami luxury and contemporary comfort.",
-    image: 'https://images.unsplash.com/photo-1729605412149-5ee28815f9de?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Hyderabad'],
   },
   {
@@ -237,7 +237,7 @@ const destinations = [
     order: 21,
     tagline: 'Land of High Passes',
     description: "A luxury camp in the Nubra Valley with traditional Ladakhi architecture and panoramic views of the Karakoram range.",
-    image: 'https://images.unsplash.com/photo-1690199827629-552c41f6450f?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Leh'],
   },
   {
@@ -248,7 +248,7 @@ const destinations = [
     order: 22,
     tagline: 'Palace City',
     description: "A neo-classical palace turned luxury hotel, once the residence of the Maharaja of Mysore.",
-    image: 'https://images.unsplash.com/photo-1561501900-3701fa6a0864?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Mysore'],
   },
   {
@@ -259,7 +259,7 @@ const destinations = [
     order: 23,
     tagline: 'Wildlife Gateway',
     description: "A secluded jungle retreat on the edge of Periyar National Park, where luxury meets raw wilderness.",
-    image: 'https://images.unsplash.com/photo-1621293954908-907159247fc8?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Thekkady'],
   },
   {
@@ -270,7 +270,7 @@ const destinations = [
     order: 24,
     tagline: 'Jagannath Temple',
     description: "A serene beachfront resort on the Bay of Bengal, minutes from the iconic Jagannath Temple.",
-    image: 'https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Puri'],
   },
   {
@@ -281,7 +281,7 @@ const destinations = [
     order: 25,
     tagline: 'Buddhist Pilgrimage',
     description: "A tranquil luxury retreat steps from the Mahabodhi Temple, combining Buddhist serenity with modern comforts.",
-    image: 'https://images.unsplash.com/photo-1729606559667-fcab83917423?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Bodhgaya'],
   },
   {
@@ -292,7 +292,7 @@ const destinations = [
     order: 26,
     tagline: 'Gateway to Sikkim',
     description: "A luxury resort in the clouds, offering panoramic Kanchenjunga views from every room.",
-    image: 'https://images.unsplash.com/photo-1561501900-3701fa6a0864?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Gangtok'],
   },
   {
@@ -303,7 +303,7 @@ const destinations = [
     order: 27,
     tagline: 'Scotland of the East',
     description: "A pine-fringed colonial cottage resort in the Scotland of the East, offering serene lake views and gourmet dining.",
-    image: 'https://images.unsplash.com/photo-1729605412184-8d796f9c6f66?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Shillong'],
   },
   {
@@ -314,7 +314,7 @@ const destinations = [
     order: 28,
     tagline: 'City of Destiny',
     description: "Beachfront luxury overlooking the Bay of Bengal with stunning sunrise views and coastal cuisine.",
-    image: 'https://images.unsplash.com/photo-1729606559410-f367a0a31e6b?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Visakhapatnam'],
   },
   {
@@ -325,7 +325,7 @@ const destinations = [
     order: 29,
     tagline: 'Temple City',
     description: "An urban resort near the Lingaraj Temple, combining Odisha's architectural heritage with contemporary comfort.",
-    image: 'https://images.unsplash.com/photo-1630587148265-761cbd139043?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Bhubaneswar'],
   },
   {
@@ -336,7 +336,7 @@ const destinations = [
     order: 30,
     tagline: 'Heritage City',
     description: "A boutique heritage hotel in a restored mansion, showcasing Gujarati craftsmanship and contemporary luxury.",
-    image: 'https://images.unsplash.com/photo-1469796466635-455ede028aca?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Ahmedabad'],
   },
   {
@@ -347,7 +347,7 @@ const destinations = [
     order: 31,
     tagline: 'City of Lakes',
     description: "A 19th-century palace hotel set in lush gardens, reflecting the grandeur of Bhopal's royal heritage.",
-    image: 'https://images.unsplash.com/photo-1469796466635-455ede028aca?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Bhopal'],
   },
   {
@@ -358,7 +358,7 @@ const destinations = [
     order: 32,
     tagline: 'Hill Retreat',
     description: "A sprawling luxury resort in the Sahyadri hills with an adventure park, multiple pools, and world-class dining.",
-    image: 'https://images.unsplash.com/photo-1729605412149-5ee28815f9de?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Lonavala'],
   },
   {
@@ -369,7 +369,7 @@ const destinations = [
     order: 33,
     tagline: 'Cultural Hub',
     description: "A luxury tented camp at the base of Rajmachi Fort, offering a perfect blend of heritage and nature.",
-    image: 'https://images.unsplash.com/photo-1690199827629-552c41f6450f?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Pune'],
   },
   {
@@ -391,7 +391,7 @@ const destinations = [
     order: 35,
     tagline: 'Gateway to Northeast',
     description: "A riverfront eco-lodge offering luxury cottages and wildlife expeditions in the Kaziranga landscape.",
-    image: 'https://images.unsplash.com/photo-1690199827629-552c41f6450f?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Guwahati'],
   },
   {
@@ -402,7 +402,7 @@ const destinations = [
     order: 36,
     tagline: 'Tiger Land',
     description: "An exclusive wildlife lodge at the edge of Bandhavgarh National Park, famous for tiger sightings.",
-    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Bandhavgarh'],
   },
   {
@@ -424,7 +424,7 @@ const destinations = [
     order: 38,
     tagline: 'Shore Temple Town',
     description: "A serene beachfront escape overlooking the Bay of Bengal, steps from the ancient Shore Temple.",
-    image: 'https://images.unsplash.com/photo-1518860308377-800f02d5498a?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Mahabalipuram'],
   },
   {
@@ -446,7 +446,7 @@ const destinations = [
     order: 40,
     tagline: 'Tea Capital',
     description: "An elegant tea bungalow resort in the heart of Assam's tea country, offering authentic plantation experiences.",
-    image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Jorhat'],
   },
   {
@@ -457,7 +457,7 @@ const destinations = [
     order: 41,
     tagline: 'Waterfall City',
     description: "An eco-luxury resort in the heart of Jharkhand's forests, overlooking Hundru Falls with tribal-inspired architecture.",
-    image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Ranchi'],
   },
   {
@@ -468,7 +468,7 @@ const destinations = [
     order: 42,
     tagline: 'Monastery Town',
     description: "A boutique lodge in Tawang with breathtaking Himalayan views and proximity to the famed Tawang Monastery.",
-    image: 'https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Tawang'],
   },
   {
@@ -479,7 +479,7 @@ const destinations = [
     order: 43,
     tagline: 'Naga Heritage',
     description: "A traditional Naga morung-inspired lodge offering authentic tribal hospitality and panoramic mountain views.",
-    image: 'https://images.unsplash.com/photo-1519868343531-805e97cbda3e?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Kohima'],
   },
   {
@@ -490,7 +490,7 @@ const destinations = [
     order: 44,
     tagline: 'Jewel of Manipur',
     description: "A floating eco-resort on Loktak Lake with overwater cottages and stunning sunrise over the phumdis.",
-    image: 'https://images.unsplash.com/photo-1518860308377-800f02d5498a?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Imphal'],
   },
   {
@@ -501,7 +501,7 @@ const destinations = [
     order: 45,
     tagline: 'Hill Capital',
     description: "A hillside boutique hotel overlooking the Aizawl valley, offering Mizoram's finest hospitality and panoramic views.",
-    image: 'https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Aizawl'],
   },
   {
@@ -512,7 +512,7 @@ const destinations = [
     order: 46,
     tagline: 'Royal City',
     description: "A heritage stay in the vicinity of the royal Ujjayanta Palace, with Bengali and tribal fusion architecture.",
-    image: 'https://images.unsplash.com/photo-1729605412149-5ee28815f9de?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Agartala'],
   },
   {
@@ -523,7 +523,7 @@ const destinations = [
     order: 47,
     tagline: 'Wilderness Gateway',
     description: "An eco-friendly wildlife resort at the edge of Kanger Valley National Park, offering luxury amid pristine forests.",
-    image: 'https://images.unsplash.com/photo-1552873547-b88e7b2760e2?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Raipur'],
   },
   {
@@ -534,7 +534,7 @@ const destinations = [
     order: 48,
     tagline: 'Coffee Country',
     description: "A boutique resort nestled in the coffee plantations of the Eastern Ghats, offering tribal heritage experiences.",
-    image: 'https://images.unsplash.com/photo-1729606559667-fcab83917423?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Araku Valley'],
   },
   {
@@ -556,7 +556,7 @@ const destinations = [
     order: 50,
     tagline: 'Coastal Serenity',
     description: "A contemporary luxury resort set amidst paddy fields, with a holistic spa and beachfront access to Majorda Beach.",
-    image: 'https://images.unsplash.com/photo-1552873547-b88e7b2760e2?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Majorda'],
   },
   {
@@ -589,7 +589,7 @@ const destinations = [
     order: 53,
     tagline: 'White Desert',
     description: "A seasonal luxury tented resort on the white salt desert of Kutch, offering cultural performances and celestial views.",
-    image: 'https://images.unsplash.com/photo-1561501900-3701fa6a0864?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Dhordo'],
   },
   {
@@ -611,7 +611,7 @@ const destinations = [
     order: 55,
     tagline: 'The Pink City',
     description: "A luxurious 4-star hotel inspired by Rajputana architecture, featuring a stunning courtyard pool and award-winning dining.",
-    image: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Jaipur'],
   },
   {
@@ -633,7 +633,7 @@ const destinations = [
     order: 57,
     tagline: 'City of Lakes',
     description: "A stunning 4-star resort on the banks of Lake Pichola with beautiful gardens, reflecting pools, and spectacular sunset views.",
-    image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Udaipur'],
   },
   {
@@ -655,7 +655,7 @@ const destinations = [
     order: 59,
     tagline: 'The Blue City',
     description: "A heritage 4-star palace hotel restored by the royal family, offering authentic Jodhpuri hospitality in a relaxed garden setting.",
-    image: 'https://images.unsplash.com/photo-1621293954908-907159247fc8?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Jodhpur'],
   },
   {
@@ -677,7 +677,7 @@ const destinations = [
     order: 61,
     tagline: 'Home of the Taj',
     description: "A luxurious 4-star resort inspired by Mughal architecture, set in lush gardens with a world-class spa and wellness facilities.",
-    image: 'https://images.unsplash.com/photo-1518860308377-800f02d5498a?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Agra'],
   },
   {
@@ -699,7 +699,7 @@ const destinations = [
     order: 63,
     tagline: 'Spiritual Capital',
     description: "A serene 4-star hotel offering modern luxury with traditional warmth, set in lush gardens near the spiritual heart of Varanasi.",
-    image: 'https://images.unsplash.com/photo-1729605412184-8d796f9c6f66?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Varanasi'],
   },
   {
@@ -721,7 +721,7 @@ const destinations = [
     order: 65,
     tagline: 'City of Dreams',
     description: "A prestigious 4-star hotel overlooking the Arabian Sea, known for its warm hospitality and prime location in the business district.",
-    image: 'https://images.unsplash.com/photo-1729605412149-5ee28815f9de?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Mumbai'],
   },
   {
@@ -743,7 +743,7 @@ const destinations = [
     order: 67,
     tagline: 'Adventure & Yoga Hub',
     description: "A beautiful 4-star riverside resort with adventure activities, yoga pavilions, and comfortable cottages along the Ganges.",
-    image: '/images/aloha-rishikesh/1.jpeg',
+    image: '',
     cities: ['Rishikesh'],
   },
   {
@@ -765,7 +765,7 @@ const destinations = [
     order: 69,
     tagline: 'Mountain Escape',
     description: "A peaceful 4-star resort surrounded by pine forests, offering luxurious cottages with mountain views and warm hospitality.",
-    image: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Manali'],
   },
   {
@@ -787,7 +787,7 @@ const destinations = [
     order: 71,
     tagline: 'Queen of Hills',
     description: "A charming 4-star heritage hotel on the Mall Road, offering classic colonial comfort with modern amenities since 1898.",
-    image: 'https://images.unsplash.com/photo-1551918120-9739cb430c6d?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Shimla'],
   },
   {
@@ -809,7 +809,7 @@ const destinations = [
     order: 73,
     tagline: 'The Golden City',
     description: "A comfortable 4-star hotel near the Golden Temple, known for its warm service, clean rooms, and excellent Punjabi cuisine.",
-    image: 'https://images.unsplash.com/photo-1729605412104-24acd08bd413?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Amritsar'],
   },
   {
@@ -831,7 +831,7 @@ const destinations = [
     order: 75,
     tagline: 'Paradise on Earth',
     description: "A luxurious 4-star hotel on Dal Lake with comfortable rooms, houseboat stays, and stunning mountain views.",
-    image: 'https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Srinagar'],
   },
   {
@@ -853,7 +853,7 @@ const destinations = [
     order: 77,
     tagline: 'Tea Country',
     description: "A cozy 4-star mountain retreat nestled in tea plantations, offering stunning valley views and authentic Kerala hospitality.",
-    image: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Munnar'],
   },
   {
@@ -875,7 +875,7 @@ const destinations = [
     order: 79,
     tagline: 'Goan Paradise',
     description: "A serene 4-star spa retreat nestled in the hills above Vagator, blending Goan-Portuguese architecture with holistic wellness.",
-    image: 'https://images.unsplash.com/photo-1552873547-b88e7b2760e2?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Vagator'],
   },
   {
@@ -897,7 +897,7 @@ const destinations = [
     order: 81,
     tagline: 'Garden City',
     description: "A luxurious 4-star hotel on MG Road with an eco-conscious design, beautiful gardens, and award-winning restaurants.",
-    image: 'https://images.unsplash.com/photo-1693585576677-3635adad699d?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Bengaluru'],
   },
   {
@@ -919,7 +919,7 @@ const destinations = [
     order: 83,
     tagline: 'Temple City',
     description: "A contemporary 4-star luxury hotel on the Adyar River, offering elegant rooms, waterfront dining, and impeccable service.",
-    image: 'https://images.unsplash.com/photo-1729605412149-5ee28815f9de?w=800&h=600&fit=crop',
+    image: '',
     cities: ['Chennai'],
   },
 ]

@@ -121,7 +121,7 @@ export default function About() {
             <p className="text-sm text-muted mb-6">Pan India Hotels & Resorts Consolidator</p>
             <div className="space-y-2 text-sm text-muted">
               <p><span className="font-medium text-text">Phone:</span> +91 8286 521 111</p>
-              <p><span className="font-medium text-text">Email:</span> himanshu@hotelwala.net</p>
+              <p><span className="font-medium text-text">Email:</span> info@hotelwala.net</p>
               <p><span className="font-medium text-text">Web:</span> www.hotelwala.net</p>
             </div>
             <div className="mt-6 pt-6 border-t border-border text-sm text-muted">
