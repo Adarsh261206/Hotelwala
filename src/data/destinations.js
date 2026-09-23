@@ -115,7 +115,7 @@ const destinations = [
     order: 9,
     tagline: 'Queen of Hills',
     description: "A colonial mountain retreat at 2,500 meters, once the residence of Lord Kitchener, surrounded by cedar forests.",
-    image: 'https://images.unsplash.com/photo-1715191904112-4a5d9c3089fa?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&h=600&fit=crop',
     cities: ['Shimla'],
   },
 
@@ -211,7 +211,7 @@ const destinations = [
     order: 30,
     tagline: 'Heritage City',
     description: "A boutique heritage hotel in a restored mansion, showcasing Gujarati craftsmanship and contemporary luxury.",
-    image: 'https://images.unsplash.com/photo-1469796466635-455ede028aca?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=800&h=600&fit=crop',
     cities: ['Ahmedabad'],
   },
 
@@ -259,7 +259,7 @@ const destinations = [
     order: 39,
     tagline: 'Wellness Retreat',
     description: "A world-renowned wellness retreat set in a Maharaja's palace overlooking the Ganges valley and Himalayan foothills.",
-    image: 'https://images.unsplash.com/photo-1693585576677-3635adad699d?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&h=600&fit=crop',
     cities: ['Narendra Nagar'],
   },
 
@@ -547,7 +547,7 @@ const destinations = [
     order: 74,
     tagline: 'Paradise on Earth',
     description: "A magnificent former Maharaja's palace on the banks of Dal Lake, offering regal suites, sprawling gardens, and timeless Kashmiri hospitality.",
-    image: 'https://images.unsplash.com/photo-1597432538815-7f364ff18fd1?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1491002052546-be051a32b481?w=800&h=600&fit=crop',
     cities: ['Srinagar'],
   },
 
