@@ -7,6 +7,7 @@ import HotelCard from '../components/cards/HotelCard'
 import { getHotelsByState } from '../utils/helpers'
 import states from '../data/states'
 import hotels from '../data/hotels'
+import primeLocations from '../data/primeLocations'
 
 export default function States() {
   const [selectedState, setSelectedState] = useState(null)
@@ -30,6 +31,8 @@ export default function States() {
       })
     : []
 
+  const primeStateIds = new Set(primeLocations.flatMap(p => p.stateIds))
+
   return (
     <div className="py-10 md:py-16">
       <SEO title="Explore by State" description="Use our interactive India map to discover luxury hotels in every state. Click any state to explore premium accommodations." />
@@ -40,8 +43,16 @@ export default function States() {
           align="center"
         />
 
+        <div className="flex flex-wrap justify-center gap-2 mb-6">
+          {primeLocations.map(p => (
+            <span key={p.id} className="text-[11px] font-semibold tracking-widest uppercase bg-primary/10 text-primary px-3 py-1 rounded-full">
+              {p.label} ★ Prime
+            </span>
+          ))}
+        </div>
+
         <div className="my-10">
-          <IndiaMap selectedState={selectedState} onStateSelect={handleStateSelect} />
+          <IndiaMap selectedState={selectedState} onStateSelect={handleStateSelect} primeStateIds={primeStateIds} />
         </div>
 
         <div ref={listingRef} className="mt-8">

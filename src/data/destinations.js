@@ -292,7 +292,7 @@ const destinations = [
     order: 26,
     tagline: 'Gateway to Sikkim',
     description: "A luxury resort in the clouds, offering panoramic Kanchenjunga views from every room.",
-    image: '',
+    image: 'https://images.unsplash.com/photo-1561501900-3701fa6a0864?w=800&h=600&fit=crop',
     cities: ['Gangtok'],
   },
   {
@@ -336,7 +336,7 @@ const destinations = [
     order: 30,
     tagline: 'Heritage City',
     description: "A boutique heritage hotel in a restored mansion, showcasing Gujarati craftsmanship and contemporary luxury.",
-    image: '',
+    image: 'https://images.unsplash.com/photo-1469796466635-455ede028aca?w=800&h=600&fit=crop',
     cities: ['Ahmedabad'],
   },
   {

@@ -4,7 +4,8 @@ import Container from '../ui/Container'
 import { FOOTER_QUICK_LINKS, SOCIAL_LINKS, SITE_DESCRIPTION } from '../../utils/constants'
 import states from '../../data/states'
 
-const popularStates = states.filter(s => ['goa', 'kerala', 'rajasthan', 'himachal-pradesh', 'uttarakhand', 'jammu-kashmir'].includes(s.id))
+const primeIds = ['jammu-kashmir', 'uttarakhand', 'kerala', 'karnataka', 'rajasthan', 'himachal-pradesh', 'goa', 'gujarat', 'maharashtra', 'assam']
+const popularStates = states.filter(s => primeIds.includes(s.id))
 
 export default function Footer() {
   return (

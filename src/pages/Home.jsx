@@ -1,5 +1,6 @@
 import SEO from '../components/ui/SEO'
 import Hero from '../components/sections/Hero'
+import PrimeLocations from '../components/sections/PrimeLocations'
 import FeaturedHotels from '../components/sections/FeaturedHotels'
 import PopularDestinations from '../components/sections/PopularDestinations'
 import LuxuryCollections from '../components/sections/LuxuryCollections'
@@ -14,6 +15,7 @@ export default function Home() {
     <>
       <SEO description="Discover India's finest luxury hotels. Browse curated collections of premium accommodations across all 28 states." />
       <Hero />
+      <PrimeLocations />
       <FeaturedHotels />
       <PopularDestinations />
       <LuxuryCollections />

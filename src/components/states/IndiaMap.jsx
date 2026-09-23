@@ -9,7 +9,7 @@ states.forEach(s => {
   }
 })
 
-export default function IndiaMap({ selectedState, onStateSelect }) {
+export default function IndiaMap({ selectedState, onStateSelect, primeStateIds }) {
   const [hoveredState, setHoveredState] = useState(null)
   const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 })
   const [svgLoaded, setSvgLoaded] = useState(false)
@@ -72,15 +72,16 @@ export default function IndiaMap({ selectedState, onStateSelect }) {
         {paths.map(({ id, d, state }) => {
           const isSelected = selectedState?.id === state.id
           const isHovered = hoveredState?.id === state.id
+          const isPrime = primeStateIds ? primeStateIds.has(state.id) : false
 
           return (
             <path
               key={id}
               id={id}
               d={d}
-              fill={isSelected ? '#B88E5A' : isHovered ? '#D4C5A9' : '#E7E2DA'}
-              stroke={isSelected ? '#B88E5A' : isHovered ? '#B88E5A' : '#FAF8F5'}
-              strokeWidth={isSelected ? 2.5 : isHovered ? 2.5 : 1}
+              fill={isSelected ? '#B88E5A' : isPrime ? '#F0E6D2' : isHovered ? '#D4C5A9' : '#E7E2DA'}
+              stroke={isSelected ? '#B88E5A' : isPrime ? '#C9A86A' : isHovered ? '#B88E5A' : '#FAF8F5'}
+              strokeWidth={isSelected ? 2.5 : isPrime ? 2 : isHovered ? 2.5 : 1}
               strokeLinejoin="round"
               className="transition-all duration-300 cursor-pointer"
               onMouseEnter={() => setHoveredState(state)}
