@@ -10,6 +10,7 @@ const destinations = [
     image: '/images/the-oberoi-rajvilas/1.jpeg',
     cities: ['Jaipur'],
   },
+
   {
     id: 'taj-lake-palace',
     name: 'Udaipur',
@@ -21,6 +22,7 @@ const destinations = [
     image: '/images/taj-lake-palace/1.jpeg',
     cities: ['Udaipur'],
   },
+
   {
     id: 'the-itc-grand-bharat',
     name: 'Agra',
@@ -32,6 +34,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1563911302283-d2bc129e7570?w=800&h=600&fit=crop',
     cities: ['Agra'],
   },
+
   {
     id: 'nadesar-palace',
     name: 'Varanasi',
@@ -40,9 +43,10 @@ const destinations = [
     order: 3,
     tagline: 'Spiritual Capital',
     description: "A restored 19th-century palace on the banks of the Ganges, offering an intimate luxury experience in the spiritual capital.",
-    image: 'https://images.unsplash.com/photo-1561361058-15194ff1b019?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&h=600&fit=crop',
     cities: ['Varanasi'],
   },
+
   {
     id: 'the-taj-mahal-palace',
     name: 'Mumbai',
@@ -54,6 +58,7 @@ const destinations = [
     image: '/images/the-taj-mahal-palace/1.jpeg',
     cities: ['Mumbai'],
   },
+
   {
     id: 'the-cliff-edge-manali',
     name: 'Manali',
@@ -65,6 +70,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop',
     cities: ['Manali'],
   },
+
   {
     id: 'taj-rishikesh',
     name: 'Rishikesh',
@@ -76,6 +82,7 @@ const destinations = [
     image: '/images/taj-rishikesh/1.jpeg',
     cities: ['Rishikesh'],
   },
+
   {
     id: 'taj-amritsar',
     name: 'Amritsar',
@@ -84,9 +91,10 @@ const destinations = [
     order: 7,
     tagline: 'The Golden City',
     description: "A luxury hotel offering views of the Golden Temple, combining Sikh heritage with modern elegance.",
-    image: 'https://images.unsplash.com/photo-1595658652337-44f4e7f0e0b8?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1605600659873-d630ffb52526?w=800&h=600&fit=crop',
     cities: ['Amritsar'],
   },
+
   {
     id: 'umaid-bhavan-palace',
     name: 'Jodhpur',
@@ -98,6 +106,7 @@ const destinations = [
     image: '/images/umaid-bhavan-palace/1.jpeg',
     cities: ['Jodhpur'],
   },
+
   {
     id: 'the-wildflower-hall',
     name: 'Shimla',
@@ -109,28 +118,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1715191904112-4a5d9c3089fa?w=800&h=600&fit=crop',
     cities: ['Shimla'],
   },
-  {
-    id: 'glenburn-tea-estate',
-    name: 'Darjeeling',
-    slug: 'glenburn-tea-estate',
-    stateId: 'west-bengal',
-    order: 10,
-    tagline: 'Queen of the Himalayas',
-    description: "A charming tea planter's bungalow overlooking the Himalayas, offering immersive tea garden experiences.",
-    image: '',
-    cities: ['Darjeeling'],
-  },
-  {
-    id: 'spice-village-munnar',
-    name: 'Munnar',
-    slug: 'spice-village-munnar',
-    stateId: 'kerala',
-    order: 11,
-    tagline: 'Tea Country',
-    description: "Nestled in a cardamom plantation, this eco-luxury resort offers cottages inspired by tribal architecture with modern comforts.",
-    image: '',
-    cities: ['Munnar'],
-  },
+
   {
     id: 'orange-county-coorg',
     name: 'Coorg',
@@ -142,28 +130,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&h=600&fit=crop',
     cities: ['Coorg'],
   },
-  {
-    id: 'vivanta-dal-lake',
-    name: 'Srinagar',
-    slug: 'vivanta-dal-lake',
-    stateId: 'jammu-kashmir',
-    order: 13,
-    tagline: 'Paradise on Earth',
-    description: "A luxurious houseboat and garden resort on the banks of Dal Lake, offering Shikara rides and Mughal garden views.",
-    image: '',
-    cities: ['Srinagar'],
-  },
-  {
-    id: 'savoy-ooty',
-    name: 'Ooty',
-    slug: 'savoy-ooty',
-    stateId: 'tamil-nadu',
-    order: 14,
-    tagline: 'Queen of Nilgiris',
-    description: "A colonial-era luxury hotel perched in the Nilgiris, surrounded by manicured gardens and eucalyptus forests.",
-    image: '',
-    cities: ['Ooty'],
-  },
+
   {
     id: 'the-oberoi-grand',
     name: 'Kolkata',
@@ -175,17 +142,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1729605412240-bc3cb17d7600?w=800&h=600&fit=crop',
     cities: ['Kolkata'],
   },
-  {
-    id: 'taj-fishermans-cove',
-    name: 'Chennai',
-    slug: 'taj-fishermans-cove',
-    stateId: 'tamil-nadu',
-    order: 16,
-    tagline: 'Temple City',
-    description: "A beachfront resort on the Covelong coast with colonial-style cottages and spectacular sunrise views.",
-    image: '',
-    cities: ['Chennai'],
-  },
+
   {
     id: 'the-oberoi-bengaluru',
     name: 'Bengaluru',
@@ -197,6 +154,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&h=600&fit=crop',
     cities: ['Bengaluru'],
   },
+
   {
     id: 'kumarakom-lake-resort',
     name: 'Kumarakom',
@@ -208,6 +166,7 @@ const destinations = [
     image: '/images/kumarakom-lake-resort/1.jpeg',
     cities: ['Kumarakom'],
   },
+
   {
     id: 'taj-kovalam',
     name: 'Kovalam',
@@ -219,71 +178,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=600&fit=crop',
     cities: ['Kovalam'],
   },
-  {
-    id: 'bababudan-lodge',
-    name: 'Hyderabad',
-    slug: 'bababudan-lodge',
-    stateId: 'telangana',
-    order: 20,
-    description: "A boutique heritage hotel in Hyderabad's old city, offering Nizami luxury and contemporary comfort.",
-    image: '',
-    cities: ['Hyderabad'],
-  },
-  {
-    id: 'the-grand-lah',
-    name: 'Leh',
-    slug: 'the-grand-lah',
-    stateId: 'ladakh',
-    order: 21,
-    tagline: 'Land of High Passes',
-    description: "A luxury camp in the Nubra Valley with traditional Ladakhi architecture and panoramic views of the Karakoram range.",
-    image: '',
-    cities: ['Leh'],
-  },
-  {
-    id: 'lalitha-mahal-palace',
-    name: 'Mysore',
-    slug: 'lalitha-mahal-palace',
-    stateId: 'karnataka',
-    order: 22,
-    tagline: 'Palace City',
-    description: "A neo-classical palace turned luxury hotel, once the residence of the Maharaja of Mysore.",
-    image: '',
-    cities: ['Mysore'],
-  },
-  {
-    id: 'thekkady-wilderness',
-    name: 'Thekkady',
-    slug: 'thekkady-wilderness',
-    stateId: 'kerala',
-    order: 23,
-    tagline: 'Wildlife Gateway',
-    description: "A secluded jungle retreat on the edge of Periyar National Park, where luxury meets raw wilderness.",
-    image: '',
-    cities: ['Thekkady'],
-  },
-  {
-    id: 'chandrabhaga-beach',
-    name: 'Puri',
-    slug: 'chandrabhaga-beach',
-    stateId: 'odisha',
-    order: 24,
-    tagline: 'Jagannath Temple',
-    description: "A serene beachfront resort on the Bay of Bengal, minutes from the iconic Jagannath Temple.",
-    image: '',
-    cities: ['Puri'],
-  },
-  {
-    id: 'maurya-bihar',
-    name: 'Bodhgaya',
-    slug: 'maurya-bihar',
-    stateId: 'bihar',
-    order: 25,
-    tagline: 'Buddhist Pilgrimage',
-    description: "A tranquil luxury retreat steps from the Mahabodhi Temple, combining Buddhist serenity with modern comforts.",
-    image: '',
-    cities: ['Bodhgaya'],
-  },
+
   {
     id: 'mayfair-gangtok',
     name: 'Gangtok',
@@ -295,6 +190,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&h=600&fit=crop',
     cities: ['Gangtok'],
   },
+
   {
     id: 'shillong-hills',
     name: 'Shillong',
@@ -306,28 +202,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&h=600&fit=crop',
     cities: ['Shillong'],
   },
-  {
-    id: 'dolphin-hotel-visakhapatnam',
-    name: 'Visakhapatnam',
-    slug: 'dolphin-hotel-visakhapatnam',
-    stateId: 'andhra-pradesh',
-    order: 28,
-    tagline: 'City of Destiny',
-    description: "Beachfront luxury overlooking the Bay of Bengal with stunning sunrise views and coastal cuisine.",
-    image: '',
-    cities: ['Visakhapatnam'],
-  },
-  {
-    id: 'mayfair-odisha',
-    name: 'Bhubaneswar',
-    slug: 'mayfair-odisha',
-    stateId: 'odisha',
-    order: 29,
-    tagline: 'Temple City',
-    description: "An urban resort near the Lingaraj Temple, combining Odisha's architectural heritage with contemporary comfort.",
-    image: '',
-    cities: ['Bhubaneswar'],
-  },
+
   {
     id: 'shamrocks-gujarat',
     name: 'Ahmedabad',
@@ -339,39 +214,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1469796466635-455ede028aca?w=800&h=600&fit=crop',
     cities: ['Ahmedabad'],
   },
-  {
-    id: 'jehan-numa-palace',
-    name: 'Bhopal',
-    slug: 'jehan-numa-palace',
-    stateId: 'madhya-pradesh',
-    order: 31,
-    tagline: 'City of Lakes',
-    description: "A 19th-century palace hotel set in lush gardens, reflecting the grandeur of Bhopal's royal heritage.",
-    image: '',
-    cities: ['Bhopal'],
-  },
-  {
-    id: 'della-resorts',
-    name: 'Lonavala',
-    slug: 'della-resorts',
-    stateId: 'maharashtra',
-    order: 32,
-    tagline: 'Hill Retreat',
-    description: "A sprawling luxury resort in the Sahyadri hills with an adventure park, multiple pools, and world-class dining.",
-    image: '',
-    cities: ['Lonavala'],
-  },
-  {
-    id: 'sujan-rajmachi',
-    name: 'Pune',
-    slug: 'sujan-rajmachi',
-    stateId: 'maharashtra',
-    order: 33,
-    tagline: 'Cultural Hub',
-    description: "A luxury tented camp at the base of Rajmachi Fort, offering a perfect blend of heritage and nature.",
-    image: '',
-    cities: ['Pune'],
-  },
+
   {
     id: 'the-oberoi-chandigarh',
     name: 'Chandigarh',
@@ -383,6 +226,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop',
     cities: ['Chandigarh'],
   },
+
   {
     id: 'brahmaputra-lodge',
     name: 'Guwahati',
@@ -394,17 +238,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&h=600&fit=crop',
     cities: ['Guwahati'],
   },
-  {
-    id: 'bandhavgarh-lodge',
-    name: 'Bandhavgarh',
-    slug: 'bandhavgarh-lodge',
-    stateId: 'madhya-pradesh',
-    order: 36,
-    tagline: 'Tiger Land',
-    description: "An exclusive wildlife lodge at the edge of Bandhavgarh National Park, famous for tiger sightings.",
-    image: '',
-    cities: ['Bandhavgarh'],
-  },
+
   {
     id: 'khyber-himalayan-resort',
     name: 'Gulmarg',
@@ -416,17 +250,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1729606559410-f367a0a31e6b?w=800&h=600&fit=crop',
     cities: ['Gulmarg'],
   },
-  {
-    id: 'ideal-beach-resort',
-    name: 'Mahabalipuram',
-    slug: 'ideal-beach-resort',
-    stateId: 'tamil-nadu',
-    order: 38,
-    tagline: 'Shore Temple Town',
-    description: "A serene beachfront escape overlooking the Bay of Bengal, steps from the ancient Shore Temple.",
-    image: '',
-    cities: ['Mahabalipuram'],
-  },
+
   {
     id: 'ananda-in-the-himalayas',
     name: 'Narendra Nagar',
@@ -438,6 +262,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1693585576677-3635adad699d?w=800&h=600&fit=crop',
     cities: ['Narendra Nagar'],
   },
+
   {
     id: 'maati-assam',
     name: 'Jorhat',
@@ -449,17 +274,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&h=600&fit=crop',
     cities: ['Jorhat'],
   },
-  {
-    id: 'jhirjhiri-jharkhand',
-    name: 'Ranchi',
-    slug: 'jhirjhiri-jharkhand',
-    stateId: 'jharkhand',
-    order: 41,
-    tagline: 'Waterfall City',
-    description: "An eco-luxury resort in the heart of Jharkhand's forests, overlooking Hundru Falls with tribal-inspired architecture.",
-    image: '',
-    cities: ['Ranchi'],
-  },
+
   {
     id: 'arunachal-orchid',
     name: 'Tawang',
@@ -471,6 +286,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&h=600&fit=crop',
     cities: ['Tawang'],
   },
+
   {
     id: 'kohima-heritage',
     name: 'Kohima',
@@ -482,6 +298,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&h=600&fit=crop',
     cities: ['Kohima'],
   },
+
   {
     id: 'imphal-lake-resort',
     name: 'Imphal',
@@ -493,6 +310,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&h=600&fit=crop',
     cities: ['Imphal'],
   },
+
   {
     id: 'aizawl-heights',
     name: 'Aizawl',
@@ -504,6 +322,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&h=600&fit=crop',
     cities: ['Aizawl'],
   },
+
   {
     id: 'ujjayanta-palace',
     name: 'Agartala',
@@ -515,28 +334,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&h=600&fit=crop',
     cities: ['Agartala'],
   },
-  {
-    id: 'chhattisgarh-wilderness',
-    name: 'Raipur',
-    slug: 'chhattisgarh-wilderness',
-    stateId: 'chhattisgarh',
-    order: 47,
-    tagline: 'Wilderness Gateway',
-    description: "An eco-friendly wildlife resort at the edge of Kanger Valley National Park, offering luxury amid pristine forests.",
-    image: '',
-    cities: ['Raipur'],
-  },
-  {
-    id: 'araku-valley-retreat',
-    name: 'Araku Valley',
-    slug: 'araku-valley-retreat',
-    stateId: 'andhra-pradesh',
-    order: 48,
-    tagline: 'Coffee Country',
-    description: "A boutique resort nestled in the coffee plantations of the Eastern Ghats, offering tribal heritage experiences.",
-    image: '',
-    cities: ['Araku Valley'],
-  },
+
   {
     id: 'w-goa',
     name: 'Vagator',
@@ -548,6 +346,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&h=600&fit=crop',
     cities: ['Vagator'],
   },
+
   {
     id: 'alila-diwa-goa',
     name: 'Majorda',
@@ -559,6 +358,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&h=600&fit=crop',
     cities: ['Majorda'],
   },
+
   {
     id: 'taj-fort-aguada',
     name: 'Sinquerim',
@@ -570,6 +370,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&h=600&fit=crop',
     cities: ['Sinquerim'],
   },
+
   {
     id: 'sujan-sherbagh',
     name: 'Jawai',
@@ -581,17 +382,7 @@ const destinations = [
     image: '/images/sujan-sherbagh/1.jpeg',
     cities: ['Jawai'],
   },
-  {
-    id: 'rann-utsav-tent',
-    name: 'Dhordo',
-    slug: 'rann-utsav-tent',
-    stateId: 'gujarat',
-    order: 53,
-    tagline: 'White Desert',
-    description: "A seasonal luxury tented resort on the white salt desert of Kutch, offering cultural performances and celestial views.",
-    image: '',
-    cities: ['Dhordo'],
-  },
+
   {
     id: 'rambagh-palace-jaipur',
     name: 'Jaipur',
@@ -603,17 +394,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&h=600&fit=crop',
     cities: ['Jaipur'],
   },
-  {
-    id: 'itc-rajputana-jaipur',
-    name: 'Jaipur',
-    slug: 'itc-rajputana-jaipur',
-    stateId: 'rajasthan',
-    order: 55,
-    tagline: 'The Pink City',
-    description: "A luxurious 4-star hotel inspired by Rajputana architecture, featuring a stunning courtyard pool and award-winning dining.",
-    image: '',
-    cities: ['Jaipur'],
-  },
+
   {
     id: 'oberoi-udaivilas',
     name: 'Udaipur',
@@ -625,17 +406,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop',
     cities: ['Udaipur'],
   },
-  {
-    id: 'trident-udaipur',
-    name: 'Udaipur',
-    slug: 'trident-udaipur',
-    stateId: 'rajasthan',
-    order: 57,
-    tagline: 'City of Lakes',
-    description: "A stunning 4-star resort on the banks of Lake Pichola with beautiful gardens, reflecting pools, and spectacular sunset views.",
-    image: '',
-    cities: ['Udaipur'],
-  },
+
   {
     id: 'raas-jodhpur',
     name: 'Jodhpur',
@@ -647,17 +418,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1477587458883-47145fc32b51?w=800&h=600&fit=crop',
     cities: ['Jodhpur'],
   },
-  {
-    id: 'ajit-bhawan-jodhpur',
-    name: 'Jodhpur',
-    slug: 'ajit-bhawan-jodhpur',
-    stateId: 'rajasthan',
-    order: 59,
-    tagline: 'The Blue City',
-    description: "A heritage 4-star palace hotel restored by the royal family, offering authentic Jodhpuri hospitality in a relaxed garden setting.",
-    image: '',
-    cities: ['Jodhpur'],
-  },
+
   {
     id: 'oberoi-amarvilas-agra',
     name: 'Agra',
@@ -669,17 +430,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1563911302283-d2bc129e7570?w=800&h=600&fit=crop',
     cities: ['Agra'],
   },
-  {
-    id: 'itc-mughal-agra',
-    name: 'Agra',
-    slug: 'itc-mughal-agra',
-    stateId: 'uttar-pradesh',
-    order: 61,
-    tagline: 'Home of the Taj',
-    description: "A luxurious 4-star resort inspired by Mughal architecture, set in lush gardens with a world-class spa and wellness facilities.",
-    image: '',
-    cities: ['Agra'],
-  },
+
   {
     id: 'brijrama-palace-varanasi',
     name: 'Varanasi',
@@ -688,9 +439,10 @@ const destinations = [
     order: 62,
     tagline: 'Spiritual Capital',
     description: "An 18th-century palace on the banks of the Ganges, restored to its former glory with stunning views of the Dashashwamedh Ghat.",
-    image: 'https://images.unsplash.com/photo-1561361058-15194ff1b019?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&h=600&fit=crop',
     cities: ['Varanasi'],
   },
+
   {
     id: 'taj-ganges-varanasi',
     name: 'Varanasi',
@@ -699,9 +451,10 @@ const destinations = [
     order: 63,
     tagline: 'Spiritual Capital',
     description: "A serene 4-star hotel offering modern luxury with traditional warmth, set in lush gardens near the spiritual heart of Varanasi.",
-    image: 'https://images.unsplash.com/photo-1561361058-15194ff1b019?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&h=600&fit=crop',
     cities: ['Varanasi'],
   },
+
   {
     id: 'the-oberoi-mumbai',
     name: 'Mumbai',
@@ -713,17 +466,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1693585576677-3635adad699d?w=800&h=600&fit=crop',
     cities: ['Mumbai'],
   },
-  {
-    id: 'trident-mumbai',
-    name: 'Mumbai',
-    slug: 'trident-mumbai',
-    stateId: 'maharashtra',
-    order: 65,
-    tagline: 'City of Dreams',
-    description: "A prestigious 4-star hotel overlooking the Arabian Sea, known for its warm hospitality and prime location in the business district.",
-    image: '',
-    cities: ['Mumbai'],
-  },
+
   {
     id: 'glasshouse-rishikesh',
     name: 'Rishikesh',
@@ -735,17 +478,7 @@ const destinations = [
     image: '/images/glasshouse-rishikesh/1.jpeg',
     cities: ['Rishikesh'],
   },
-  {
-    id: 'aloha-rishikesh',
-    name: 'Rishikesh',
-    slug: 'aloha-rishikesh',
-    stateId: 'uttarakhand',
-    order: 67,
-    tagline: 'Adventure & Yoga Hub',
-    description: "A beautiful 4-star riverside resort with adventure activities, yoga pavilions, and comfortable cottages along the Ganges.",
-    image: '',
-    cities: ['Rishikesh'],
-  },
+
   {
     id: 'the-himalayan-manali',
     name: 'Manali',
@@ -757,6 +490,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop',
     cities: ['Manali'],
   },
+
   {
     id: 'manuallaya-manali',
     name: 'Manali',
@@ -768,6 +502,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop',
     cities: ['Manali'],
   },
+
   {
     id: 'oberoi-cecil-shimla',
     name: 'Shimla',
@@ -779,17 +514,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1693585576677-3635adad699d?w=800&h=600&fit=crop',
     cities: ['Shimla'],
   },
-  {
-    id: 'clarkes-hotel-shimla',
-    name: 'Shimla',
-    slug: 'clarkes-hotel-shimla',
-    stateId: 'himachal-pradesh',
-    order: 71,
-    tagline: 'Queen of Hills',
-    description: "A charming 4-star heritage hotel on the Mall Road, offering classic colonial comfort with modern amenities since 1898.",
-    image: '',
-    cities: ['Shimla'],
-  },
+
   {
     id: 'hyatt-regency-amritsar',
     name: 'Amritsar',
@@ -798,9 +523,10 @@ const destinations = [
     order: 72,
     tagline: 'The Golden City',
     description: "A modern luxury hotel steps from the Golden Temple, offering elegant rooms, a stunning pool, and authentic Punjabi hospitality.",
-    image: 'https://images.unsplash.com/photo-1595658652337-44f4e7f0e0b8?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1605600659873-d630ffb52526?w=800&h=600&fit=crop',
     cities: ['Amritsar'],
   },
+
   {
     id: 'mk-hotel-amritsar',
     name: 'Amritsar',
@@ -809,9 +535,10 @@ const destinations = [
     order: 73,
     tagline: 'The Golden City',
     description: "A comfortable 4-star hotel near the Golden Temple, known for its warm service, clean rooms, and excellent Punjabi cuisine.",
-    image: 'https://images.unsplash.com/photo-1595658652337-44f4e7f0e0b8?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1605600659873-d630ffb52526?w=800&h=600&fit=crop',
     cities: ['Amritsar'],
   },
+
   {
     id: 'lalit-grand-srinagar',
     name: 'Srinagar',
@@ -823,17 +550,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1597432538815-7f364ff18fd1?w=800&h=600&fit=crop',
     cities: ['Srinagar'],
   },
-  {
-    id: 'grand-kashmir-srinagar',
-    name: 'Srinagar',
-    slug: 'grand-kashmir-srinagar',
-    stateId: 'jammu-kashmir',
-    order: 75,
-    tagline: 'Paradise on Earth',
-    description: "A luxurious 4-star hotel on Dal Lake with comfortable rooms, houseboat stays, and stunning mountain views.",
-    image: '',
-    cities: ['Srinagar'],
-  },
+
   {
     id: 'the-leaf-munnar',
     name: 'Munnar',
@@ -845,17 +562,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1561501900-3701fa6a0864?w=800&h=600&fit=crop',
     cities: ['Munnar'],
   },
-  {
-    id: 'blackberry-hills-munnar',
-    name: 'Munnar',
-    slug: 'blackberry-hills-munnar',
-    stateId: 'kerala',
-    order: 77,
-    tagline: 'Tea Country',
-    description: "A cozy 4-star mountain retreat nestled in tea plantations, offering stunning valley views and authentic Kerala hospitality.",
-    image: '',
-    cities: ['Munnar'],
-  },
+
   {
     id: 'ahilya-by-the-sea',
     name: 'Vagator',
@@ -867,6 +574,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&h=600&fit=crop',
     cities: ['Vagator'],
   },
+
   {
     id: 'nilaya-hermitage-goa',
     name: 'Vagator',
@@ -878,6 +586,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&h=600&fit=crop',
     cities: ['Vagator'],
   },
+
   {
     id: 'taj-west-end-bengaluru',
     name: 'Bengaluru',
@@ -889,17 +598,7 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1729605412240-bc3cb17d7600?w=800&h=600&fit=crop',
     cities: ['Bengaluru'],
   },
-  {
-    id: 'itc-gardenia-bengaluru',
-    name: 'Bengaluru',
-    slug: 'itc-gardenia-bengaluru',
-    stateId: 'karnataka',
-    order: 81,
-    tagline: 'Garden City',
-    description: "A luxurious 4-star hotel on MG Road with an eco-conscious design, beautiful gardens, and award-winning restaurants.",
-    image: '',
-    cities: ['Bengaluru'],
-  },
+
   {
     id: 'itc-grand-chola-chennai',
     name: 'Chennai',
@@ -911,6 +610,390 @@ const destinations = [
     image: 'https://images.unsplash.com/photo-1621293954908-907159247fc8?w=800&h=600&fit=crop',
     cities: ['Chennai'],
   },
+
+  {
+    id: 'glenburn-tea-estate',
+    name: 'Darjeeling',
+    slug: 'glenburn-tea-estate',
+    stateId: 'west-bengal',
+    order: 10,
+    tagline: 'Queen of the Himalayas',
+    description: "A charming tea planter's bungalow overlooking the Himalayas, offering immersive tea garden experiences.",
+    image: '',
+    cities: ['Darjeeling'],
+  },
+
+  {
+    id: 'spice-village-munnar',
+    name: 'Munnar',
+    slug: 'spice-village-munnar',
+    stateId: 'kerala',
+    order: 11,
+    tagline: 'Tea Country',
+    description: "Nestled in a cardamom plantation, this eco-luxury resort offers cottages inspired by tribal architecture with modern comforts.",
+    image: '',
+    cities: ['Munnar'],
+  },
+
+  {
+    id: 'vivanta-dal-lake',
+    name: 'Srinagar',
+    slug: 'vivanta-dal-lake',
+    stateId: 'jammu-kashmir',
+    order: 13,
+    tagline: 'Paradise on Earth',
+    description: "A luxurious houseboat and garden resort on the banks of Dal Lake, offering Shikara rides and Mughal garden views.",
+    image: '',
+    cities: ['Srinagar'],
+  },
+
+  {
+    id: 'savoy-ooty',
+    name: 'Ooty',
+    slug: 'savoy-ooty',
+    stateId: 'tamil-nadu',
+    order: 14,
+    tagline: 'Queen of Nilgiris',
+    description: "A colonial-era luxury hotel perched in the Nilgiris, surrounded by manicured gardens and eucalyptus forests.",
+    image: '',
+    cities: ['Ooty'],
+  },
+
+  {
+    id: 'taj-fishermans-cove',
+    name: 'Chennai',
+    slug: 'taj-fishermans-cove',
+    stateId: 'tamil-nadu',
+    order: 16,
+    tagline: 'Temple City',
+    description: "A beachfront resort on the Covelong coast with colonial-style cottages and spectacular sunrise views.",
+    image: '',
+    cities: ['Chennai'],
+  },
+
+  {
+    id: 'bababudan-lodge',
+    name: 'Hyderabad',
+    slug: 'bababudan-lodge',
+    stateId: 'telangana',
+    order: 20,
+    description: "A boutique heritage hotel in Hyderabad's old city, offering Nizami luxury and contemporary comfort.",
+    image: '',
+    cities: ['Hyderabad'],
+  },
+
+  {
+    id: 'the-grand-lah',
+    name: 'Leh',
+    slug: 'the-grand-lah',
+    stateId: 'ladakh',
+    order: 21,
+    tagline: 'Land of High Passes',
+    description: "A luxury camp in the Nubra Valley with traditional Ladakhi architecture and panoramic views of the Karakoram range.",
+    image: '',
+    cities: ['Leh'],
+  },
+
+  {
+    id: 'lalitha-mahal-palace',
+    name: 'Mysore',
+    slug: 'lalitha-mahal-palace',
+    stateId: 'karnataka',
+    order: 22,
+    tagline: 'Palace City',
+    description: "A neo-classical palace turned luxury hotel, once the residence of the Maharaja of Mysore.",
+    image: '',
+    cities: ['Mysore'],
+  },
+
+  {
+    id: 'thekkady-wilderness',
+    name: 'Thekkady',
+    slug: 'thekkady-wilderness',
+    stateId: 'kerala',
+    order: 23,
+    tagline: 'Wildlife Gateway',
+    description: "A secluded jungle retreat on the edge of Periyar National Park, where luxury meets raw wilderness.",
+    image: '',
+    cities: ['Thekkady'],
+  },
+
+  {
+    id: 'chandrabhaga-beach',
+    name: 'Puri',
+    slug: 'chandrabhaga-beach',
+    stateId: 'odisha',
+    order: 24,
+    tagline: 'Jagannath Temple',
+    description: "A serene beachfront resort on the Bay of Bengal, minutes from the iconic Jagannath Temple.",
+    image: '',
+    cities: ['Puri'],
+  },
+
+  {
+    id: 'maurya-bihar',
+    name: 'Bodhgaya',
+    slug: 'maurya-bihar',
+    stateId: 'bihar',
+    order: 25,
+    tagline: 'Buddhist Pilgrimage',
+    description: "A tranquil luxury retreat steps from the Mahabodhi Temple, combining Buddhist serenity with modern comforts.",
+    image: '',
+    cities: ['Bodhgaya'],
+  },
+
+  {
+    id: 'dolphin-hotel-visakhapatnam',
+    name: 'Visakhapatnam',
+    slug: 'dolphin-hotel-visakhapatnam',
+    stateId: 'andhra-pradesh',
+    order: 28,
+    tagline: 'City of Destiny',
+    description: "Beachfront luxury overlooking the Bay of Bengal with stunning sunrise views and coastal cuisine.",
+    image: '',
+    cities: ['Visakhapatnam'],
+  },
+
+  {
+    id: 'mayfair-odisha',
+    name: 'Bhubaneswar',
+    slug: 'mayfair-odisha',
+    stateId: 'odisha',
+    order: 29,
+    tagline: 'Temple City',
+    description: "An urban resort near the Lingaraj Temple, combining Odisha's architectural heritage with contemporary comfort.",
+    image: '',
+    cities: ['Bhubaneswar'],
+  },
+
+  {
+    id: 'jehan-numa-palace',
+    name: 'Bhopal',
+    slug: 'jehan-numa-palace',
+    stateId: 'madhya-pradesh',
+    order: 31,
+    tagline: 'City of Lakes',
+    description: "A 19th-century palace hotel set in lush gardens, reflecting the grandeur of Bhopal's royal heritage.",
+    image: '',
+    cities: ['Bhopal'],
+  },
+
+  {
+    id: 'della-resorts',
+    name: 'Lonavala',
+    slug: 'della-resorts',
+    stateId: 'maharashtra',
+    order: 32,
+    tagline: 'Hill Retreat',
+    description: "A sprawling luxury resort in the Sahyadri hills with an adventure park, multiple pools, and world-class dining.",
+    image: '',
+    cities: ['Lonavala'],
+  },
+
+  {
+    id: 'sujan-rajmachi',
+    name: 'Pune',
+    slug: 'sujan-rajmachi',
+    stateId: 'maharashtra',
+    order: 33,
+    tagline: 'Cultural Hub',
+    description: "A luxury tented camp at the base of Rajmachi Fort, offering a perfect blend of heritage and nature.",
+    image: '',
+    cities: ['Pune'],
+  },
+
+  {
+    id: 'bandhavgarh-lodge',
+    name: 'Bandhavgarh',
+    slug: 'bandhavgarh-lodge',
+    stateId: 'madhya-pradesh',
+    order: 36,
+    tagline: 'Tiger Land',
+    description: "An exclusive wildlife lodge at the edge of Bandhavgarh National Park, famous for tiger sightings.",
+    image: '',
+    cities: ['Bandhavgarh'],
+  },
+
+  {
+    id: 'ideal-beach-resort',
+    name: 'Mahabalipuram',
+    slug: 'ideal-beach-resort',
+    stateId: 'tamil-nadu',
+    order: 38,
+    tagline: 'Shore Temple Town',
+    description: "A serene beachfront escape overlooking the Bay of Bengal, steps from the ancient Shore Temple.",
+    image: '',
+    cities: ['Mahabalipuram'],
+  },
+
+  {
+    id: 'jhirjhiri-jharkhand',
+    name: 'Ranchi',
+    slug: 'jhirjhiri-jharkhand',
+    stateId: 'jharkhand',
+    order: 41,
+    tagline: 'Waterfall City',
+    description: "An eco-luxury resort in the heart of Jharkhand's forests, overlooking Hundru Falls with tribal-inspired architecture.",
+    image: '',
+    cities: ['Ranchi'],
+  },
+
+  {
+    id: 'chhattisgarh-wilderness',
+    name: 'Raipur',
+    slug: 'chhattisgarh-wilderness',
+    stateId: 'chhattisgarh',
+    order: 47,
+    tagline: 'Wilderness Gateway',
+    description: "An eco-friendly wildlife resort at the edge of Kanger Valley National Park, offering luxury amid pristine forests.",
+    image: '',
+    cities: ['Raipur'],
+  },
+
+  {
+    id: 'araku-valley-retreat',
+    name: 'Araku Valley',
+    slug: 'araku-valley-retreat',
+    stateId: 'andhra-pradesh',
+    order: 48,
+    tagline: 'Coffee Country',
+    description: "A boutique resort nestled in the coffee plantations of the Eastern Ghats, offering tribal heritage experiences.",
+    image: '',
+    cities: ['Araku Valley'],
+  },
+
+  {
+    id: 'rann-utsav-tent',
+    name: 'Dhordo',
+    slug: 'rann-utsav-tent',
+    stateId: 'gujarat',
+    order: 53,
+    tagline: 'White Desert',
+    description: "A seasonal luxury tented resort on the white salt desert of Kutch, offering cultural performances and celestial views.",
+    image: '',
+    cities: ['Dhordo'],
+  },
+
+  {
+    id: 'itc-rajputana-jaipur',
+    name: 'Jaipur',
+    slug: 'itc-rajputana-jaipur',
+    stateId: 'rajasthan',
+    order: 55,
+    tagline: 'The Pink City',
+    description: "A luxurious 4-star hotel inspired by Rajputana architecture, featuring a stunning courtyard pool and award-winning dining.",
+    image: '',
+    cities: ['Jaipur'],
+  },
+
+  {
+    id: 'trident-udaipur',
+    name: 'Udaipur',
+    slug: 'trident-udaipur',
+    stateId: 'rajasthan',
+    order: 57,
+    tagline: 'City of Lakes',
+    description: "A stunning 4-star resort on the banks of Lake Pichola with beautiful gardens, reflecting pools, and spectacular sunset views.",
+    image: '',
+    cities: ['Udaipur'],
+  },
+
+  {
+    id: 'ajit-bhawan-jodhpur',
+    name: 'Jodhpur',
+    slug: 'ajit-bhawan-jodhpur',
+    stateId: 'rajasthan',
+    order: 59,
+    tagline: 'The Blue City',
+    description: "A heritage 4-star palace hotel restored by the royal family, offering authentic Jodhpuri hospitality in a relaxed garden setting.",
+    image: '',
+    cities: ['Jodhpur'],
+  },
+
+  {
+    id: 'itc-mughal-agra',
+    name: 'Agra',
+    slug: 'itc-mughal-agra',
+    stateId: 'uttar-pradesh',
+    order: 61,
+    tagline: 'Home of the Taj',
+    description: "A luxurious 4-star resort inspired by Mughal architecture, set in lush gardens with a world-class spa and wellness facilities.",
+    image: '',
+    cities: ['Agra'],
+  },
+
+  {
+    id: 'trident-mumbai',
+    name: 'Mumbai',
+    slug: 'trident-mumbai',
+    stateId: 'maharashtra',
+    order: 65,
+    tagline: 'City of Dreams',
+    description: "A prestigious 4-star hotel overlooking the Arabian Sea, known for its warm hospitality and prime location in the business district.",
+    image: '',
+    cities: ['Mumbai'],
+  },
+
+  {
+    id: 'aloha-rishikesh',
+    name: 'Rishikesh',
+    slug: 'aloha-rishikesh',
+    stateId: 'uttarakhand',
+    order: 67,
+    tagline: 'Adventure & Yoga Hub',
+    description: "A beautiful 4-star riverside resort with adventure activities, yoga pavilions, and comfortable cottages along the Ganges.",
+    image: '',
+    cities: ['Rishikesh'],
+  },
+
+  {
+    id: 'clarkes-hotel-shimla',
+    name: 'Shimla',
+    slug: 'clarkes-hotel-shimla',
+    stateId: 'himachal-pradesh',
+    order: 71,
+    tagline: 'Queen of Hills',
+    description: "A charming 4-star heritage hotel on the Mall Road, offering classic colonial comfort with modern amenities since 1898.",
+    image: '',
+    cities: ['Shimla'],
+  },
+
+  {
+    id: 'grand-kashmir-srinagar',
+    name: 'Srinagar',
+    slug: 'grand-kashmir-srinagar',
+    stateId: 'jammu-kashmir',
+    order: 75,
+    tagline: 'Paradise on Earth',
+    description: "A luxurious 4-star hotel on Dal Lake with comfortable rooms, houseboat stays, and stunning mountain views.",
+    image: '',
+    cities: ['Srinagar'],
+  },
+
+  {
+    id: 'blackberry-hills-munnar',
+    name: 'Munnar',
+    slug: 'blackberry-hills-munnar',
+    stateId: 'kerala',
+    order: 77,
+    tagline: 'Tea Country',
+    description: "A cozy 4-star mountain retreat nestled in tea plantations, offering stunning valley views and authentic Kerala hospitality.",
+    image: '',
+    cities: ['Munnar'],
+  },
+
+  {
+    id: 'itc-gardenia-bengaluru',
+    name: 'Bengaluru',
+    slug: 'itc-gardenia-bengaluru',
+    stateId: 'karnataka',
+    order: 81,
+    tagline: 'Garden City',
+    description: "A luxurious 4-star hotel on MG Road with an eco-conscious design, beautiful gardens, and award-winning restaurants.",
+    image: '',
+    cities: ['Bengaluru'],
+  },
+
   {
     id: 'park-hyatt-chennai',
     name: 'Chennai',
@@ -921,7 +1004,6 @@ const destinations = [
     description: "A contemporary 4-star luxury hotel on the Adyar River, offering elegant rooms, waterfront dining, and impeccable service.",
     image: '',
     cities: ['Chennai'],
-  },
-]
+  },]
 
 export default destinations
