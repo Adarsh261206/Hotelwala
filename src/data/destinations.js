@@ -43,7 +43,7 @@ const destinations = [
     order: 3,
     tagline: 'Spiritual Capital',
     description: "A restored 19th-century palace on the banks of the Ganges, offering an intimate luxury experience in the spiritual capital.",
-    image: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&h=600&fit=crop',
+    image: '/images/nadesar-palace/1.png',
     cities: ['Varanasi'],
   },
 
@@ -91,7 +91,7 @@ const destinations = [
     order: 7,
     tagline: 'The Golden City',
     description: "A luxury hotel offering views of the Golden Temple, combining Sikh heritage with modern elegance.",
-    image: 'https://images.unsplash.com/photo-1605600659873-d630ffb52526?w=800&h=600&fit=crop',
+    image: '/images/taj-amritsar/1.png',
     cities: ['Amritsar'],
   },
 
@@ -439,7 +439,7 @@ const destinations = [
     order: 62,
     tagline: 'Spiritual Capital',
     description: "An 18th-century palace on the banks of the Ganges, restored to its former glory with stunning views of the Dashashwamedh Ghat.",
-    image: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&h=600&fit=crop',
+    image: '/images/brijrama-palace-varanasi/1.png',
     cities: ['Varanasi'],
   },
 
@@ -451,7 +451,7 @@ const destinations = [
     order: 63,
     tagline: 'Spiritual Capital',
     description: "A serene 4-star hotel offering modern luxury with traditional warmth, set in lush gardens near the spiritual heart of Varanasi.",
-    image: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&h=600&fit=crop',
+    image: '/images/taj-ganges-varanasi/1.png',
     cities: ['Varanasi'],
   },
 
@@ -523,7 +523,7 @@ const destinations = [
     order: 72,
     tagline: 'The Golden City',
     description: "A modern luxury hotel steps from the Golden Temple, offering elegant rooms, a stunning pool, and authentic Punjabi hospitality.",
-    image: 'https://images.unsplash.com/photo-1605600659873-d630ffb52526?w=800&h=600&fit=crop',
+    image: '/images/hyatt-regency-amritsar/1.png',
     cities: ['Amritsar'],
   },
 
@@ -535,7 +535,7 @@ const destinations = [
     order: 73,
     tagline: 'The Golden City',
     description: "A comfortable 4-star hotel near the Golden Temple, known for its warm service, clean rooms, and excellent Punjabi cuisine.",
-    image: 'https://images.unsplash.com/photo-1605600659873-d630ffb52526?w=800&h=600&fit=crop',
+    image: '/images/mk-hotel-amritsar/1.png',
     cities: ['Amritsar'],
   },
 
