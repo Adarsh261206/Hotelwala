@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 
 export default function useFilteredHotels(hotels, initialFilters = {}) {
   const [filters, setFilters] = useState({
@@ -7,6 +7,15 @@ export default function useFilteredHotels(hotels, initialFilters = {}) {
     type: initialFilters.type || '',
     cities: initialFilters.cities || '',
   })
+
+  useEffect(() => {
+    setFilters({
+      search: initialFilters.search || '',
+      state: initialFilters.state || '',
+      type: initialFilters.type || '',
+      cities: initialFilters.cities || '',
+    })
+  }, [initialFilters.search, initialFilters.state, initialFilters.type, initialFilters.cities])
 
   const filtered = useMemo(() => {
     return hotels

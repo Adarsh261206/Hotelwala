@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { IoSearch, IoClose, IoMenu } from 'react-icons/io5'
 import useScrollPosition from '../../hooks/useScrollPosition'
 import { NAV_LINKS, WA_NUMBER } from '../../utils/constants'
@@ -11,6 +11,7 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
   const { pathname } = useLocation()
+  const navigate = useNavigate()
 
   const isHome = pathname === '/'
 
@@ -124,7 +125,7 @@ export default function Navbar() {
                 <IoClose className="w-6 h-6" />
               </button>
             </div>
-            <SearchBar large onSearch={q => { if (q.trim()) window.location.href = `/hotels?search=${encodeURIComponent(q)}` }} />
+            <SearchBar large onSearch={q => { if (q.trim()) { setSearchOpen(false); navigate(`/hotels?search=${encodeURIComponent(q.trim())}`) } }} />
             <p className="text-sm text-muted mt-4 text-center">Search for hotels, destinations, or states</p>
           </div>
         </div>

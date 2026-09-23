@@ -9,11 +9,20 @@ import hotels from '../data/hotels'
 
 export default function Hotels() {
   const [searchParams, setSearchParams] = useSearchParams()
+  const search = searchParams.get('search') || ''
+  const state = searchParams.get('state') || ''
   const city = searchParams.get('city') || ''
-  const { filters, filtered, updateFilter, resetFilters } = useFilteredHotels(hotels, { cities: city })
+  const type = searchParams.get('type') || ''
+  const { filters, filtered, updateFilter, resetFilters } = useFilteredHotels(hotels, { search, state, cities: city, type })
 
   function handleFilterChange(key, value) {
     updateFilter(key, value)
+    const next = new URLSearchParams(searchParams)
+    const paramMap = { search: 'search', state: 'state', cities: 'city', type: 'type' }
+    const param = paramMap[key] || key
+    if (value) next.set(param, value)
+    else next.delete(param)
+    setSearchParams(next, { replace: true })
   }
 
   function handleReset() {
