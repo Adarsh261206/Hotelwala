@@ -40,7 +40,7 @@ const destinations = [
     order: 3,
     tagline: 'Spiritual Capital',
     description: "A restored 19th-century palace on the banks of the Ganges, offering an intimate luxury experience in the spiritual capital.",
-    image: '',
+    image: 'https://images.unsplash.com/photo-1561361058-15194ff1b019?w=800&h=600&fit=crop',
     cities: ['Varanasi'],
   },
   {
@@ -62,7 +62,7 @@ const destinations = [
     order: 5,
     tagline: 'Mountain Escape',
     description: "A boutique mountain lodge offering panoramic views of the Pir Panjal range with warm Himalayan hospitality.",
-    image: '',
+    image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop',
     cities: ['Manali'],
   },
   {
@@ -84,7 +84,7 @@ const destinations = [
     order: 7,
     tagline: 'The Golden City',
     description: "A luxury hotel offering views of the Golden Temple, combining Sikh heritage with modern elegance.",
-    image: '',
+    image: 'https://images.unsplash.com/photo-1595658652337-44f4e7f0e0b8?w=800&h=600&fit=crop',
     cities: ['Amritsar'],
   },
   {
@@ -292,7 +292,7 @@ const destinations = [
     order: 26,
     tagline: 'Gateway to Sikkim',
     description: "A luxury resort in the clouds, offering panoramic Kanchenjunga views from every room.",
-    image: 'https://images.unsplash.com/photo-1561501900-3701fa6a0864?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&h=600&fit=crop',
     cities: ['Gangtok'],
   },
   {
@@ -303,7 +303,7 @@ const destinations = [
     order: 27,
     tagline: 'Scotland of the East',
     description: "A pine-fringed colonial cottage resort in the Scotland of the East, offering serene lake views and gourmet dining.",
-    image: '',
+    image: 'https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&h=600&fit=crop',
     cities: ['Shillong'],
   },
   {
@@ -391,7 +391,7 @@ const destinations = [
     order: 35,
     tagline: 'Gateway to Northeast',
     description: "A riverfront eco-lodge offering luxury cottages and wildlife expeditions in the Kaziranga landscape.",
-    image: '',
+    image: 'https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&h=600&fit=crop',
     cities: ['Guwahati'],
   },
   {
@@ -446,7 +446,7 @@ const destinations = [
     order: 40,
     tagline: 'Tea Capital',
     description: "An elegant tea bungalow resort in the heart of Assam's tea country, offering authentic plantation experiences.",
-    image: '',
+    image: 'https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&h=600&fit=crop',
     cities: ['Jorhat'],
   },
   {
@@ -468,7 +468,7 @@ const destinations = [
     order: 42,
     tagline: 'Monastery Town',
     description: "A boutique lodge in Tawang with breathtaking Himalayan views and proximity to the famed Tawang Monastery.",
-    image: '',
+    image: 'https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&h=600&fit=crop',
     cities: ['Tawang'],
   },
   {
@@ -479,7 +479,7 @@ const destinations = [
     order: 43,
     tagline: 'Naga Heritage',
     description: "A traditional Naga morung-inspired lodge offering authentic tribal hospitality and panoramic mountain views.",
-    image: '',
+    image: 'https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&h=600&fit=crop',
     cities: ['Kohima'],
   },
   {
@@ -490,7 +490,7 @@ const destinations = [
     order: 44,
     tagline: 'Jewel of Manipur',
     description: "A floating eco-resort on Loktak Lake with overwater cottages and stunning sunrise over the phumdis.",
-    image: '',
+    image: 'https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&h=600&fit=crop',
     cities: ['Imphal'],
   },
   {
@@ -501,7 +501,7 @@ const destinations = [
     order: 45,
     tagline: 'Hill Capital',
     description: "A hillside boutique hotel overlooking the Aizawl valley, offering Mizoram's finest hospitality and panoramic views.",
-    image: '',
+    image: 'https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&h=600&fit=crop',
     cities: ['Aizawl'],
   },
   {
@@ -512,7 +512,7 @@ const destinations = [
     order: 46,
     tagline: 'Royal City',
     description: "A heritage stay in the vicinity of the royal Ujjayanta Palace, with Bengali and tribal fusion architecture.",
-    image: '',
+    image: 'https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&h=600&fit=crop',
     cities: ['Agartala'],
   },
   {
@@ -545,7 +545,7 @@ const destinations = [
     order: 49,
     tagline: 'Goan Paradise',
     description: "A bold, stylish beachfront resort blending Goan charm with W's signature design aesthetic on Vagator cliff.",
-    image: 'https://images.unsplash.com/photo-1693585576677-3635adad699d?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&h=600&fit=crop',
     cities: ['Vagator'],
   },
   {
@@ -556,7 +556,7 @@ const destinations = [
     order: 50,
     tagline: 'Coastal Serenity',
     description: "A contemporary luxury resort set amidst paddy fields, with a holistic spa and beachfront access to Majorda Beach.",
-    image: '',
+    image: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&h=600&fit=crop',
     cities: ['Majorda'],
   },
   {
@@ -567,7 +567,7 @@ const destinations = [
     order: 51,
     tagline: 'Fort Beach',
     description: "A 17th-century Portuguese fort turned luxury resort overlooking the Arabian Sea with stunning sunset views.",
-    image: 'https://images.unsplash.com/photo-1729605412184-8d796f9c6f66?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&h=600&fit=crop',
     cities: ['Sinquerim'],
   },
   {
@@ -688,7 +688,7 @@ const destinations = [
     order: 62,
     tagline: 'Spiritual Capital',
     description: "An 18th-century palace on the banks of the Ganges, restored to its former glory with stunning views of the Dashashwamedh Ghat.",
-    image: 'https://images.unsplash.com/photo-1469796466635-455ede028aca?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1561361058-15194ff1b019?w=800&h=600&fit=crop',
     cities: ['Varanasi'],
   },
   {
@@ -699,7 +699,7 @@ const destinations = [
     order: 63,
     tagline: 'Spiritual Capital',
     description: "A serene 4-star hotel offering modern luxury with traditional warmth, set in lush gardens near the spiritual heart of Varanasi.",
-    image: '',
+    image: 'https://images.unsplash.com/photo-1561361058-15194ff1b019?w=800&h=600&fit=crop',
     cities: ['Varanasi'],
   },
   {
@@ -754,7 +754,7 @@ const destinations = [
     order: 68,
     tagline: 'Mountain Escape',
     description: "A luxury mountain resort with stunning views of the Pir Panjal range, offering elegant rooms and world-class amenities.",
-    image: 'https://images.unsplash.com/photo-1729605412184-8d796f9c6f66?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop',
     cities: ['Manali'],
   },
   {
@@ -765,7 +765,7 @@ const destinations = [
     order: 69,
     tagline: 'Mountain Escape',
     description: "A peaceful 4-star resort surrounded by pine forests, offering luxurious cottages with mountain views and warm hospitality.",
-    image: '',
+    image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop',
     cities: ['Manali'],
   },
   {
@@ -798,7 +798,7 @@ const destinations = [
     order: 72,
     tagline: 'The Golden City',
     description: "A modern luxury hotel steps from the Golden Temple, offering elegant rooms, a stunning pool, and authentic Punjabi hospitality.",
-    image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1595658652337-44f4e7f0e0b8?w=800&h=600&fit=crop',
     cities: ['Amritsar'],
   },
   {
@@ -809,7 +809,7 @@ const destinations = [
     order: 73,
     tagline: 'The Golden City',
     description: "A comfortable 4-star hotel near the Golden Temple, known for its warm service, clean rooms, and excellent Punjabi cuisine.",
-    image: '',
+    image: 'https://images.unsplash.com/photo-1595658652337-44f4e7f0e0b8?w=800&h=600&fit=crop',
     cities: ['Amritsar'],
   },
   {
@@ -864,7 +864,7 @@ const destinations = [
     order: 78,
     tagline: 'Goan Paradise',
     description: "An intimate boutique hotel perched on Vagator cliffs, offering stunning sea views, curated art, and personalised Goan hospitality.",
-    image: 'https://images.unsplash.com/photo-1693585576677-3635adad699d?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&h=600&fit=crop',
     cities: ['Vagator'],
   },
   {
@@ -875,7 +875,7 @@ const destinations = [
     order: 79,
     tagline: 'Goan Paradise',
     description: "A serene 4-star spa retreat nestled in the hills above Vagator, blending Goan-Portuguese architecture with holistic wellness.",
-    image: '',
+    image: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&h=600&fit=crop',
     cities: ['Vagator'],
   },
   {
