@@ -13,11 +13,11 @@ states.forEach(s => { stateNames[s.id] = s.name })
 export default function Destinations() {
   return (
     <div className="py-10 md:py-16">
-      <SEO title="Destinations" description="Explore India through its most iconic travel destinations, from the palaces of Rajasthan to the backwaters of Kerala." />
+      <SEO title="Destinations" description="Explore our prime destinations across Kashmir, Uttarakhand, Goa and Mumbai — from Dal Lake to Marine Drive." />
       <Container>
         <SectionHeading
           title="Popular Destinations"
-          subtitle="Discover India's most iconic travel destinations, from the palaces of Rajasthan to the backwaters of Kerala."
+          subtitle="Discover our prime destinations across Kashmir, Uttarakhand, Goa and Mumbai."
           align="center"
         />
 
