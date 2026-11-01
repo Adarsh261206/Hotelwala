@@ -91,7 +91,7 @@ const destinations = [
     order: 7,
     tagline: 'Wildlife Gateway',
     description: 'Handpicked luxury stays across Thekkady with the best rates and on-ground support.',
-    image: '/images/spice-village-cgh/1.jpg',
+    image: '/images/destinations/thekkady.jpg',
     cities: ['Thekkady'],
     hotelCount: 7,
   },
