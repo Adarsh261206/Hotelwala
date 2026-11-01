@@ -30,7 +30,7 @@ export default function PrimeLocations() {
             <div>
               <p className="text-primary font-medium text-xs uppercase tracking-[0.25em] mb-2">Our Prime Service Locations</p>
               <h2 className="text-3xl md:text-4xl font-heading text-text">Where We Serve Best</h2>
-              <p className="text-sm text-muted mt-2 max-w-xl">Kashmir to Northeast, these 10 regions are our core strength — curated hotels, on-ground support & best rates.</p>
+              <p className="text-sm text-muted mt-2 max-w-xl">Kashmir to Kerala, these {primeLocations.length} regions are our core strength — curated hotels, on-ground support & best rates.</p>
             </div>
             <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-widest uppercase text-primary bg-primary/10 px-3 py-1.5 rounded-full self-start md:self-auto">
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse" /> Prime Service Network
@@ -38,7 +38,7 @@ export default function PrimeLocations() {
           </div>
         </Reveal>
 
-        <StaggerReveal className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
+        <StaggerReveal className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {primeLocations.map(prime => {
             const hero = getHeroHotel(prime)
             const count = getPrimeCount(prime)

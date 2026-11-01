@@ -3,9 +3,9 @@ import Container from '../components/ui/Container'
 import SectionHeading from '../components/ui/SectionHeading'
 
 const stats = [
-  { value: '52', label: 'Premium Hotels' },
-  { value: '4', label: 'Prime Regions' },
-  { value: '15', label: 'Destinations' },
+  { value: '203', label: 'Premium Hotels' },
+  { value: '9', label: 'Prime Regions' },
+  { value: '63', label: 'Destinations' },
   { value: '4.4', label: 'Average Rating' },
 ]
 
@@ -88,7 +88,7 @@ export default function About() {
                 { year: '2021', title: 'First 10 Hotels', desc: 'Launched with a curated collection of 10 exceptional properties across 5 states.' },
                 { year: '2022', title: 'Pan-India Expansion', desc: 'Expanded to cover all 28 states, curating over 30 premium hotels across the country.' },
                 { year: '2023', title: 'Interactive Map Launch', desc: 'Launched the signature India map feature, making hotel discovery visual and intuitive.' },
-                { year: '2024', title: '52 Curated Hotels', desc: 'Today, Hotelwala features 52 handpicked hotels across Kashmir, Uttarakhand, Goa and Mumbai.' },
+                { year: '2024', title: 'National Expansion', desc: 'Today, Hotelwala features 203 affiliated hotels across 13 states and union territories.' },
               ].map((item, i) => (
                 <div key={i} className="flex gap-6">
                   <div className="shrink-0 text-right w-16">

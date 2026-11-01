@@ -30,7 +30,7 @@ export const FOOTER_QUICK_LINKS = [
 
 export const WA_NUMBER = '918286521111'
 
-export const CITIES = ["Anjuna", "Calangute", "Candolim", "Cavelossim", "Gulmarg", "Mobor", "Morjim", "Mumbai", "Mussoorie", "Pahalgam", "Panaji", "Rishikesh", "Sinquerim", "Srinagar", "Vagator"]
+export const CITIES = ["Anjuna", "Athirappilly", "Bandipur", "Bangalore", "Bekal", "Calangute", "Candolim", "Cavelossim", "Chikmagalur", "Cochin", "Coonoor", "Coorg", "Corbett", "Dalhousie", "Devala", "Dharamshala", "Gokarna", "Gulmarg", "Hampi", "Hassan", "Havelock", "Jaipur", "Jaisalmer", "Jodhpur", "Kabini", "Kanha", "Kausani", "Khajuraho", "Kodaikanal", "Kovalam", "Kumarakom", "Kumbhalgarh", "Mahabaleshwar", "Malshej Ghat", "Manali", "Marari", "Mobor", "Morjim", "Mumbai", "Munnar", "Mussoorie", "Mysore", "Nainital", "Ooty", "Pachmarhi", "Pahalgam", "Panaji", "Pench", "Pondicherry", "Poovar", "Ranthambore", "Rishikesh", "Sasan Gir", "Shimla", "Shimoga", "Sinquerim", "Srinagar", "Thekkady", "Theog", "Trivandrum", "Udaipur", "Vagator", "Wayanad"]
 
 export const PROPERTY_TYPES = [
   'Luxury Resort',

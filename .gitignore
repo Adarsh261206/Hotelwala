@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Source inventory PDFs (not part of the app)
+*.pdf
